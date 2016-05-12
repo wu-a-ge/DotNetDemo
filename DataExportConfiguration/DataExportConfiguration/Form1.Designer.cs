@@ -134,6 +134,7 @@
             this.tabTitlePage.Padding = new System.Windows.Forms.Padding(3);
             this.tabTitlePage.Size = new System.Drawing.Size(961, 464);
             this.tabTitlePage.TabIndex = 0;
+            this.tabTitlePage.Tag = "title_info";
             this.tabTitlePage.Text = "作品表配置";
             this.tabTitlePage.UseVisualStyleBackColor = true;
             // 
@@ -410,6 +411,7 @@
             this.tabOtherPage.Padding = new System.Windows.Forms.Padding(3);
             this.tabOtherPage.Size = new System.Drawing.Size(961, 464);
             this.tabOtherPage.TabIndex = 1;
+            this.tabOtherPage.Tag = "other";
             this.tabOtherPage.Text = "其它表配置";
             this.tabOtherPage.UseVisualStyleBackColor = true;
             // 
@@ -493,6 +495,7 @@
             this.btnExport.TabIndex = 37;
             this.btnExport.Text = "导出";
             this.btnExport.UseVisualStyleBackColor = true;
+            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
             // 
             // Form1
             // 
