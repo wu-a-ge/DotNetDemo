@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using Newtonsoft.Json.Linq;
+using System.IO;
 
 namespace DataExportConfiguration
 {
@@ -20,39 +21,73 @@ namespace DataExportConfiguration
 
         private void btnExport_Click(object sender, EventArgs e)
         {
-            JObject policy=new JObject();
+            JObject policy = new JObject();
             if (System.String.Compare(tabControl1.SelectedTab.Tag.ToString(), Title, System.StringComparison.Ordinal) == 0)
             {
-                policy.Add("common.export.data.table","title_info");
-                JObject articleType=new JObject();
+                policy.Add("common.export.data.table", "title_info");
+
+                 //type
+                
+                JObject articleType = new JObject();
                 for (int i = 0; i < 10; i++)
                 {
                     String chkName = "chk_" + i;
-                    Control[]  results =tabTitlePage.Controls.Find(chkName, false);
-                    if (results.Length > 0)
+                    CheckBox chkInstance = (CheckBox)tabTitlePage.Controls.Find(chkName, false)[0];
+                    //如果选择了所有，就忽略其它
+                    if (chkInstance.Checked && chkInstance.Name.Equals("chk_0"))
                     {
-                        CheckBox chkInstance = (CheckBox) results[0];
-                        //如果选择了所有，就忽略其它
-                        if (chkInstance.Checked && chkInstance.Name.Equals("chk_0"))
-                        {
-                            articleType.Add("type",chkInstance.Tag.ToString());
-                        }
+                        articleType.Add(chkInstance.Tag.ToString(), txt_0.Text.Trim());
+                        break;
                     }
-
+                    else
+                    {
+                        TextBox value = (TextBox)tabTitlePage.Controls.Find("txt_" + chkInstance.Tag.ToString(), false)[0];
+                        articleType.Add(chkInstance.Tag.ToString(), value.Text.Trim());
+                    }
                 }
+                policy.Add("common.export.data.article.type", articleType);
+
                 
-                policy.Add("common.export.data.ouput.format",11);
-            
             }
             else
             {
-                
-                
+
+                policy.Add("common.export.data.table", cbxTable.SelectedValue.ToString());
+                policy.Add("common.export.data.fields", txtFields.Text.Trim());
             }
+            //export format
+            foreach (var childControl in groupExportFormat.Controls)
+            {
+                RadioButton tmpRadButton = childControl as RadioButton;
+                if (tmpRadButton.Checked)
+                {
+                    policy.Add("common.export.data.output.format", tmpRadButton.Tag.ToString());
+                    break;
+                }
+
+            }
+
+
+            //export src
+            foreach (var childControl in groupExportSrc.Controls)
+            {
+                RadioButton tmpRadButton = childControl as RadioButton;
+                if (tmpRadButton.Checked)
+                {
+                    policy.Add("common.export.data.src", tmpRadButton.Tag.ToString());
+                    break;
+                }
+            }
+            policy.Add("common.export.data.find.value", txtIds.Text.Trim());
+            policy.Add("common.export.data.rules", txtRules.Text.Trim());
+
+            StreamWriter writer=new StreamWriter( File.Create("export.config", 2048),Encoding.UTF8);
+            writer.WriteLine(policy.ToString());
+            writer.Close();
         }
 
-        
 
-       
+
+
     }
 }

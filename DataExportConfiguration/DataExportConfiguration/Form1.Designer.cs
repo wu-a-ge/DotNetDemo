@@ -69,12 +69,16 @@
             this.btnExport = new System.Windows.Forms.Button();
             this.radSource = new System.Windows.Forms.RadioButton();
             this.radAll = new System.Windows.Forms.RadioButton();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupExportSrc = new System.Windows.Forms.GroupBox();
             this.groupExportFormat = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtIds = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtFields = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabTitlePage.SuspendLayout();
             this.tabOtherPage.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.groupExportSrc.SuspendLayout();
             this.groupExportFormat.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -409,6 +413,8 @@
             // 
             // tabOtherPage
             // 
+            this.tabOtherPage.Controls.Add(this.txtFields);
+            this.tabOtherPage.Controls.Add(this.label9);
             this.tabOtherPage.Controls.Add(this.label8);
             this.tabOtherPage.Controls.Add(this.cbxTable);
             this.tabOtherPage.Location = new System.Drawing.Point(4, 22);
@@ -515,16 +521,16 @@
             this.radAll.Text = "所有";
             this.radAll.UseVisualStyleBackColor = true;
             // 
-            // groupBox1
+            // groupExportSrc
             // 
-            this.groupBox1.Controls.Add(this.radAll);
-            this.groupBox1.Controls.Add(this.radSource);
-            this.groupBox1.Location = new System.Drawing.Point(217, 560);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 45);
-            this.groupBox1.TabIndex = 47;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "导出源";
+            this.groupExportSrc.Controls.Add(this.radAll);
+            this.groupExportSrc.Controls.Add(this.radSource);
+            this.groupExportSrc.Location = new System.Drawing.Point(217, 560);
+            this.groupExportSrc.Name = "groupExportSrc";
+            this.groupExportSrc.Size = new System.Drawing.Size(200, 45);
+            this.groupExportSrc.TabIndex = 47;
+            this.groupExportSrc.TabStop = false;
+            this.groupExportSrc.Text = "导出源";
             // 
             // groupExportFormat
             // 
@@ -538,13 +544,47 @@
             this.groupExportFormat.TabStop = false;
             this.groupExportFormat.Text = "导出格式";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(456, 583);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(77, 12);
+            this.label6.TabIndex = 49;
+            this.label6.Text = "查找机构ID串";
+            // 
+            // txtIds
+            // 
+            this.txtIds.Location = new System.Drawing.Point(530, 579);
+            this.txtIds.Name = "txtIds";
+            this.txtIds.Size = new System.Drawing.Size(100, 21);
+            this.txtIds.TabIndex = 50;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(169, 82);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(53, 12);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "导出字段";
+            // 
+            // txtFields
+            // 
+            this.txtFields.Location = new System.Drawing.Point(240, 79);
+            this.txtFields.Name = "txtFields";
+            this.txtFields.Size = new System.Drawing.Size(121, 21);
+            this.txtFields.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1133, 660);
+            this.Controls.Add(this.txtIds);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.groupExportFormat);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupExportSrc);
             this.Controls.Add(this.txtRules);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btnExport);
@@ -556,8 +596,8 @@
             this.tabTitlePage.PerformLayout();
             this.tabOtherPage.ResumeLayout(false);
             this.tabOtherPage.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.groupExportSrc.ResumeLayout(false);
+            this.groupExportSrc.PerformLayout();
             this.groupExportFormat.ResumeLayout(false);
             this.groupExportFormat.PerformLayout();
             this.ResumeLayout(false);
@@ -608,8 +648,12 @@
         private System.Windows.Forms.Button btnExport;
         private System.Windows.Forms.RadioButton radSource;
         private System.Windows.Forms.RadioButton radAll;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupExportSrc;
         private System.Windows.Forms.GroupBox groupExportFormat;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtIds;
+        private System.Windows.Forms.TextBox txtFields;
+        private System.Windows.Forms.Label label9;
     }
 }
 
