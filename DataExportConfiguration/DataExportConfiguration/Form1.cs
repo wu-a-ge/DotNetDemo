@@ -23,10 +23,31 @@ namespace DataExportConfiguration
             JObject policy=new JObject();
             if (System.String.Compare(tabControl1.SelectedTab.Tag.ToString(), Title, System.StringComparison.Ordinal) == 0)
             {
-                policy.Add("common.export.table","title_info");
-              
-                policy.Add("common.export.ouput.format",11);
+                policy.Add("common.export.data.table","title_info");
+                JObject articleType=new JObject();
+                for (int i = 0; i < 10; i++)
+                {
+                    String chkName = "chk_" + i;
+                    Control[]  results =tabTitlePage.Controls.Find(chkName, false);
+                    if (results.Length > 0)
+                    {
+                        CheckBox chkInstance = (CheckBox) results[0];
+                        //如果选择了所有，就忽略其它
+                        if (chkInstance.Checked && chkInstance.Name.Equals("chk_0"))
+                        {
+                            articleType.Add("type",chkInstance.Tag.ToString());
+                        }
+                    }
+
+                }
+                
+                policy.Add("common.export.data.ouput.format",11);
             
+            }
+            else
+            {
+                
+                
             }
         }
 

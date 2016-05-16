@@ -66,11 +66,16 @@
             this.radText = new System.Windows.Forms.RadioButton();
             this.radSqlite = new System.Windows.Forms.RadioButton();
             this.radMdb = new System.Windows.Forms.RadioButton();
-            this.label6 = new System.Windows.Forms.Label();
             this.btnExport = new System.Windows.Forms.Button();
+            this.radSource = new System.Windows.Forms.RadioButton();
+            this.radAll = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupExportFormat = new System.Windows.Forms.GroupBox();
             this.tabControl1.SuspendLayout();
             this.tabTitlePage.SuspendLayout();
             this.tabOtherPage.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupExportFormat.SuspendLayout();
             this.SuspendLayout();
             // 
             // cbxTable
@@ -426,7 +431,7 @@
             // 
             // txtRules
             // 
-            this.txtRules.Location = new System.Drawing.Point(217, 551);
+            this.txtRules.Location = new System.Drawing.Point(217, 611);
             this.txtRules.Multiline = true;
             this.txtRules.Name = "txtRules";
             this.txtRules.Size = new System.Drawing.Size(274, 37);
@@ -435,7 +440,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(129, 565);
+            this.label7.Location = new System.Drawing.Point(129, 625);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(53, 12);
             this.label7.TabIndex = 42;
@@ -445,7 +450,7 @@
             // 
             this.radText.AutoSize = true;
             this.radText.Checked = true;
-            this.radText.Location = new System.Drawing.Point(384, 508);
+            this.radText.Location = new System.Drawing.Point(138, 20);
             this.radText.Name = "radText";
             this.radText.Size = new System.Drawing.Size(47, 16);
             this.radText.TabIndex = 41;
@@ -457,11 +462,10 @@
             // radSqlite
             // 
             this.radSqlite.AutoSize = true;
-            this.radSqlite.Location = new System.Drawing.Point(297, 508);
+            this.radSqlite.Location = new System.Drawing.Point(60, 20);
             this.radSqlite.Name = "radSqlite";
             this.radSqlite.Size = new System.Drawing.Size(59, 16);
             this.radSqlite.TabIndex = 40;
-            this.radSqlite.TabStop = true;
             this.radSqlite.Tag = "sqlite";
             this.radSqlite.Text = "sqlite";
             this.radSqlite.UseVisualStyleBackColor = true;
@@ -469,23 +473,13 @@
             // radMdb
             // 
             this.radMdb.AutoSize = true;
-            this.radMdb.Location = new System.Drawing.Point(217, 508);
+            this.radMdb.Location = new System.Drawing.Point(6, 20);
             this.radMdb.Name = "radMdb";
             this.radMdb.Size = new System.Drawing.Size(41, 16);
             this.radMdb.TabIndex = 39;
-            this.radMdb.TabStop = true;
             this.radMdb.Tag = "mdb";
             this.radMdb.Text = "mdb";
             this.radMdb.UseVisualStyleBackColor = true;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(129, 508);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 12);
-            this.label6.TabIndex = 38;
-            this.label6.Text = "导出格式";
             // 
             // btnExport
             // 
@@ -497,17 +491,62 @@
             this.btnExport.UseVisualStyleBackColor = true;
             this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
             // 
+            // radSource
+            // 
+            this.radSource.AutoSize = true;
+            this.radSource.Checked = true;
+            this.radSource.Location = new System.Drawing.Point(24, 20);
+            this.radSource.Name = "radSource";
+            this.radSource.Size = new System.Drawing.Size(41, 16);
+            this.radSource.TabIndex = 45;
+            this.radSource.TabStop = true;
+            this.radSource.Tag = "vip";
+            this.radSource.Text = "VIP";
+            this.radSource.UseVisualStyleBackColor = true;
+            // 
+            // radAll
+            // 
+            this.radAll.AutoSize = true;
+            this.radAll.Location = new System.Drawing.Point(112, 20);
+            this.radAll.Name = "radAll";
+            this.radAll.Size = new System.Drawing.Size(47, 16);
+            this.radAll.TabIndex = 46;
+            this.radAll.Tag = "all";
+            this.radAll.Text = "所有";
+            this.radAll.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.radAll);
+            this.groupBox1.Controls.Add(this.radSource);
+            this.groupBox1.Location = new System.Drawing.Point(217, 560);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 45);
+            this.groupBox1.TabIndex = 47;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "导出源";
+            // 
+            // groupExportFormat
+            // 
+            this.groupExportFormat.Controls.Add(this.radText);
+            this.groupExportFormat.Controls.Add(this.radSqlite);
+            this.groupExportFormat.Controls.Add(this.radMdb);
+            this.groupExportFormat.Location = new System.Drawing.Point(217, 508);
+            this.groupExportFormat.Name = "groupExportFormat";
+            this.groupExportFormat.Size = new System.Drawing.Size(200, 47);
+            this.groupExportFormat.TabIndex = 48;
+            this.groupExportFormat.TabStop = false;
+            this.groupExportFormat.Text = "导出格式";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1002, 660);
+            this.ClientSize = new System.Drawing.Size(1133, 660);
+            this.Controls.Add(this.groupExportFormat);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtRules);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.radText);
-            this.Controls.Add(this.radSqlite);
-            this.Controls.Add(this.radMdb);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.btnExport);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
@@ -517,6 +556,10 @@
             this.tabTitlePage.PerformLayout();
             this.tabOtherPage.ResumeLayout(false);
             this.tabOtherPage.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupExportFormat.ResumeLayout(false);
+            this.groupExportFormat.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -562,8 +605,11 @@
         private System.Windows.Forms.RadioButton radText;
         private System.Windows.Forms.RadioButton radSqlite;
         private System.Windows.Forms.RadioButton radMdb;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnExport;
+        private System.Windows.Forms.RadioButton radSource;
+        private System.Windows.Forms.RadioButton radAll;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupExportFormat;
     }
 }
 
