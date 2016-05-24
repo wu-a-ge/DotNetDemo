@@ -84,10 +84,13 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Web References\localhost\HelloWorld.wsdl" />
+    <None Include="Web References\localhost\ReaderInfoService.wsdl" />
     <None Include="Web References\localhost\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\localhost\results.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
