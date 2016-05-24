@@ -9,12 +9,7 @@ namespace vs2010.consoleApp.demo
     {
         static void Main(string[] args)
         {
-           ReaderInfoService service=new ReaderInfoService();
-            service.RequestSOAPHeader=new RequestSOAPHeader();
-            service.RequestSOAPHeader.user = "root";
-            service.RequestSOAPHeader.password="root";
-            //service.getListsByIds("A1234", "is_active");
-            service.getUserInfo("abc", "1234");
+           
         }
     }
 }

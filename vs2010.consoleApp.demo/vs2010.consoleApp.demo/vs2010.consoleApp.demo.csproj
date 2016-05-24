@@ -66,10 +66,10 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="http://localhost:9000/helloWorld%3fwsdl">
+    <WebReferenceUrl Include="http://192.168.30.47:9090/userManager/vipCloud/webService/ReaderInfo%3fwsdl">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\localhost\</RelPath>
-      <UpdateFromURL>http://localhost:9000/helloWorld%3fwsdl</UpdateFromURL>
+      <UpdateFromURL>http://192.168.30.47:9090/userManager/vipCloud/webService/ReaderInfo%3fwsdl</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
@@ -85,6 +85,7 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <None Include="Web References\localhost\ReaderInfoService.wsdl" />
+    <None Include="Web References\localhost\ReaderInfoService0.wsdl" />
     <None Include="Web References\localhost\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
