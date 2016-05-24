@@ -9,7 +9,11 @@ namespace vs2010.consoleApp.demo
     {
         static void Main(string[] args)
         {
-           
+           localhost.ReaderInfoService service=new ReaderInfoService();
+           service.RequestSoapHeader = new RequestSOAPHeader(); ;
+            service.RequestSoapHeader.username = "test";
+            service.RequestSoapHeader.password = "test";
+            service.getListsByIds("a12340", "reader_number");
         }
     }
 }

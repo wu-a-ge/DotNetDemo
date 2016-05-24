@@ -28,7 +28,7 @@ namespace vs2010.consoleApp.demo.localhost {
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Web.Services.WebServiceBindingAttribute(Name="ReaderInfoServiceSoapBinding", Namespace="http://vipcloud.cqvip.com/vipCloud/webService/ReaderInfo/service")]
     public partial class ReaderInfoService : System.Web.Services.Protocols.SoapHttpClientProtocol {
-        
+        public RequestSOAPHeader RequestSoapHeader { get; set; }
         private System.Threading.SendOrPostCallback addOperationCompleted;
         
         private System.Threading.SendOrPostCallback deleteOperationCompleted;
@@ -298,7 +298,7 @@ namespace vs2010.consoleApp.demo.localhost {
                 this.countsCompleted(this, new countsCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
             }
         }
-        
+        [SoapHeader("RequestSoapHeader")]
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("", RequestNamespace="http://vipcloud.cqvip.com/vipCloud/webService/ReaderInfo", ResponseNamespace="http://vipcloud.cqvip.com/vipCloud/webService/ReaderInfo", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
         [return: System.Xml.Serialization.XmlElementAttribute("return", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
