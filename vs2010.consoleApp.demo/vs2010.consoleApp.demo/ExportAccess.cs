@@ -135,11 +135,11 @@ namespace vs2010.consoleApp.demo
                     selectSqlBuilder.Append(",");
                 }
                 builder.Append(" )");
-                if (typeSelectSql[pair.Key] == null)
+                if (!typeSelectSql.ContainsKey(pair.Key))
                     typeSelectSql.Add(pair.Key, String.Format(selectSql, selectSqlBuilder.ToString()));
-                if (typeInsertSql[pair.Key] == null)
+                if (!typeInsertSql.ContainsKey(pair.Key))
                     typeInsertSql.Add(pair.Key, String.Format(insertSql, insertSqlBuilder.ToString(), String.Join(",", paramsFields)));
-                if (typeSqlParams[pair.Key] == null)
+                if (!typeSqlParams.ContainsKey(pair.Key))
                     typeSqlParams.Add(pair.Key, paramsFields);
                 Console.WriteLine(builder);
 
