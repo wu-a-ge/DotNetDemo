@@ -60,6 +60,8 @@
             this.txtTable = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabOtherPage = new System.Windows.Forms.TabPage();
+            this.txtFields = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.txtRules = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -73,8 +75,10 @@
             this.groupExportFormat = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtIds = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txtFields = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtReduceNum = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtReduceMb = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabTitlePage.SuspendLayout();
             this.tabOtherPage.SuspendLayout();
@@ -426,6 +430,22 @@
             this.tabOtherPage.Text = "其它表配置";
             this.tabOtherPage.UseVisualStyleBackColor = true;
             // 
+            // txtFields
+            // 
+            this.txtFields.Location = new System.Drawing.Point(240, 79);
+            this.txtFields.Name = "txtFields";
+            this.txtFields.Size = new System.Drawing.Size(121, 21);
+            this.txtFields.TabIndex = 3;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(169, 82);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(53, 12);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "导出字段";
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -455,12 +475,10 @@
             // radText
             // 
             this.radText.AutoSize = true;
-            this.radText.Checked = true;
             this.radText.Location = new System.Drawing.Point(138, 20);
             this.radText.Name = "radText";
             this.radText.Size = new System.Drawing.Size(47, 16);
             this.radText.TabIndex = 41;
-            this.radText.TabStop = true;
             this.radText.Tag = "text";
             this.radText.Text = "文本";
             this.radText.UseVisualStyleBackColor = true;
@@ -479,10 +497,12 @@
             // radMdb
             // 
             this.radMdb.AutoSize = true;
+            this.radMdb.Checked = true;
             this.radMdb.Location = new System.Drawing.Point(6, 20);
             this.radMdb.Name = "radMdb";
             this.radMdb.Size = new System.Drawing.Size(41, 16);
             this.radMdb.TabIndex = 39;
+            this.radMdb.TabStop = true;
             this.radMdb.Tag = "mdb";
             this.radMdb.Text = "mdb";
             this.radMdb.UseVisualStyleBackColor = true;
@@ -547,7 +567,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(456, 583);
+            this.label6.Location = new System.Drawing.Point(447, 582);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(77, 12);
             this.label6.TabIndex = 49;
@@ -560,27 +580,49 @@
             this.txtIds.Size = new System.Drawing.Size(100, 21);
             this.txtIds.TabIndex = 50;
             // 
-            // label9
+            // label10
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(169, 82);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(53, 12);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "导出字段";
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(456, 515);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(59, 12);
+            this.label10.TabIndex = 51;
+            this.label10.Text = "reduceNum";
             // 
-            // txtFields
+            // txtReduceNum
             // 
-            this.txtFields.Location = new System.Drawing.Point(240, 79);
-            this.txtFields.Name = "txtFields";
-            this.txtFields.Size = new System.Drawing.Size(121, 21);
-            this.txtFields.TabIndex = 3;
+            this.txtReduceNum.Location = new System.Drawing.Point(530, 512);
+            this.txtReduceNum.Name = "txtReduceNum";
+            this.txtReduceNum.Size = new System.Drawing.Size(100, 21);
+            this.txtReduceNum.TabIndex = 52;
+            this.txtReduceNum.Text = "1";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(458, 549);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(53, 12);
+            this.label11.TabIndex = 53;
+            this.label11.Text = "ReduceMb";
+            // 
+            // txtReduceMb
+            // 
+            this.txtReduceMb.Location = new System.Drawing.Point(530, 549);
+            this.txtReduceMb.Name = "txtReduceMb";
+            this.txtReduceMb.Size = new System.Drawing.Size(100, 21);
+            this.txtReduceMb.TabIndex = 54;
+            this.txtReduceMb.Text = "4096";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1133, 660);
+            this.Controls.Add(this.txtReduceMb);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.txtReduceNum);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.txtIds);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.groupExportFormat);
@@ -654,6 +696,10 @@
         private System.Windows.Forms.TextBox txtIds;
         private System.Windows.Forms.TextBox txtFields;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtReduceNum;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtReduceMb;
     }
 }
 

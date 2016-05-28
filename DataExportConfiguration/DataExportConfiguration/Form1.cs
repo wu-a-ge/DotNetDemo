@@ -42,6 +42,7 @@ namespace DataExportConfiguration
                     else
                     {
                         TextBox value = (TextBox)tabTitlePage.Controls.Find("txt_" + chkInstance.Tag.ToString(), false)[0];
+                        if (!String.IsNullOrEmpty(value.Text.Trim()))
                         articleType.Add(chkInstance.Tag.ToString(), value.Text.Trim());
                     }
                 }
@@ -80,8 +81,10 @@ namespace DataExportConfiguration
             }
             policy.Add("common.export.data.find.value", txtIds.Text.Trim());
             policy.Add("common.export.data.rules", txtRules.Text.Trim());
-
-            StreamWriter writer=new StreamWriter( File.Create("export.config", 2048),Encoding.UTF8);
+            policy.Add("common.export.reduce.num", txtReduceNum.Text.Trim());
+            policy.Add("common.export.reduce.mb", txtReduceMb.Text.Trim());
+            UTF8Encoding utf8 = new UTF8Encoding(false);
+            StreamWriter writer = new StreamWriter(File.Create("json.config", 2048), utf8);
             writer.WriteLine(policy.ToString());
             writer.Close();
         }
