@@ -10,7 +10,7 @@ namespace vs2010.consoleApp.demo
         static void Main(string[] args)
         {
 
-            ExportAccess.Export();
+            ExportAccess.Export(args[0],Int32.Parse(args[1]));
 
         }
     }

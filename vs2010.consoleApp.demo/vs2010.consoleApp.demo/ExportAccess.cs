@@ -6,6 +6,8 @@ using System.Text;
 using ADOX;
 using System.IO;
 using System.Data;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
 namespace vs2010.consoleApp.demo
 {
 
@@ -17,80 +19,58 @@ namespace vs2010.consoleApp.demo
         static Dictionary<String, ISet<String>> typeSqlParams = new Dictionary<string, ISet<String>>();
         static Dictionary<String, String> typeInsertSql = new Dictionary<string, string>();
         static Dictionary<String, String> typeSelectSql = new Dictionary<string, string>();
-        static int threshold = 100000;
+        //static int threshold = 100000;
         private static void InitFields()
         {
             ISet<String> qkFields = new HashSet<String>();
             qkFields.UnionWith("lngid,titletype,mediaid,media_c,media_e,years,vol,num,volumn,specialnum,subjectnum,gch,title_c,title_e,keyword_c,keyword_e,remark_c,remark_e,class,beginpage,endpage,jumppage,pagecount,showwriter,showorgan,imburse,author_e,medias_qk,refercount,referids,intpdf,isqwkz,intgby,isinclude,range,fstorgan,fstwriter,muinfo,language,issn,type".Split(','));
-
             typeFields.Add("1", qkFields);
-
-
         }
 
-        public static void Export()
+        public static void Export(String dataPath,int startFileNum)
         {
             InitFields();
 
-            int fileCounts = 1;
+            int fileCounts = startFileNum;
             //mdb
             String connectionString = String.Format(JetProvider, fileCounts + "_" + Table_name);
             InitMdb(connectionString);
             OleDbConnection conn = new OleDbConnection(connectionString);
             conn.Open();
             //read file
-            StreamReader reader = new StreamReader(new BufferedStream(new FileStream(@"d:\data", FileMode.Open)));
+            StreamReader reader = new StreamReader(new BufferedStream(new FileStream(dataPath, FileMode.Open)));
             String line = reader.ReadLine();
             int counts = 1;
             while (line != null)
             {
-                String[] fieldValues = line.Split('|');
-                String type = fieldValues[fieldValues.Length - 1];
+                JObject obj = (JObject)JsonConvert.DeserializeObject(line,typeof(JObject));
                 ACEParameterHelper parameterHelper = new ACEParameterHelper();
+                String type = obj["type"].ToString();
                 int i = 0;
                 foreach (String paramField in typeSqlParams[type])
                 {
-                    parameterHelper.AddParameter<String>(paramField, fieldValues[i]);
+                    parameterHelper.AddParameter<String>(paramField, obj[paramField].ToString());
                     i++;
                 }
                 AccessHelper.ExecuteNonQuery(conn, typeInsertSql[type], parameterHelper.GetParameters());
-                if (counts >= threshold)
-                {
+                //if (counts >= threshold)
+                //{
 
-                    fileCounts++;
-                    conn.Close();
-                    connectionString = String.Format(JetProvider, fileCounts + "_" + Table_name);
-                    InitMdb(connectionString);
-                    conn = new OleDbConnection(connectionString);
-                    conn.Open();
-                    counts = 0;
-                }
+                //    fileCounts++;
+                //    conn.Close();
+                //    connectionString = String.Format(JetProvider, fileCounts + "_" + Table_name);
+                //    InitMdb(connectionString);
+                //    conn = new OleDbConnection(connectionString);
+                //    conn.Open();
+                //    counts = 0;
+                //}
                 counts++;
                 line = reader.ReadLine();
             }
             if (conn != null)
                 conn.Close();
         }
-        public static void BatchExport()
-        {
-            InitFields();
-
-            int fileCounts = 1;
-            //mdb
-            String connectionString = String.Format(JetProvider, fileCounts + "_" + Table_name);
-            InitMdb(connectionString);
-            OleDbConnection conn = new OleDbConnection(connectionString);
-            conn.Open();
-            OleDbDataAdapter sd = new OleDbDataAdapter();
-            sd.SelectCommand = new OleDbCommand("select devid,data_time,data_value from CurrentTest", conn);
-            sd.InsertCommand = new OleDbCommand("insert into CurrentTest (devid,data_time,data_value) "
-                            + " values (@devid,@data_time,@data_value);", conn);
-            sd.InsertCommand.UpdatedRowSource = UpdateRowSource.None;
-            sd.UpdateBatchSize = 0;
-            DataSet dataset = new DataSet();
-            sd.Fill(dataset);
-
-        }
+    
         public static void InitMdb(String connectionString)
         {
             CreateMdb(connectionString);
