@@ -49,7 +49,7 @@ namespace vs2010.consoleApp.demo
                 int i = 0;
                 foreach (String paramField in typeSqlParams[type])
                 {
-                    parameterHelper.AddParameter<String>(paramField, obj[paramField].ToString());
+                    parameterHelper.AddParameter<String>(paramField, obj[paramField.Substring(1)].ToString());
                     i++;
                 }
                 AccessHelper.ExecuteNonQuery(conn, typeInsertSql[type], parameterHelper.GetParameters());
