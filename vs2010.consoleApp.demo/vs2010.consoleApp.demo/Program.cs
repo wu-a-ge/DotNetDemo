@@ -9,11 +9,7 @@ namespace vs2010.consoleApp.demo
     {
         static void Main(string[] args)
         {
-            localhost.HelloWorld service = new localhost.HelloWorld();
-            service.RequestSOAPHeader = new RequestSOAPHeader();
-            service.RequestSOAPHeader.user = "user";
-            service.RequestSOAPHeader.password = "abcd";
-            service.sayHi("abc");
+            ExportAccess.Export();
         }
     }
 }

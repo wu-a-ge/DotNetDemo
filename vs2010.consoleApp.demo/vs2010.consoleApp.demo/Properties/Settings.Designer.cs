@@ -22,15 +22,5 @@ namespace vs2010.consoleApp.demo.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:9000/helloWorld")]
-        public string vs2010_consoleApp_demo_localhost_HelloWorld {
-            get {
-                return ((string)(this["vs2010_consoleApp_demo_localhost_HelloWorld"]));
-            }
-        }
     }
 }
