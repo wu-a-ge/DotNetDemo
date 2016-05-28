@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using ADOX;
 using System.IO;
+using System.Data;
 namespace vs2010.consoleApp.demo
 {
 
@@ -15,6 +16,7 @@ namespace vs2010.consoleApp.demo
         static Dictionary<String, ISet<String>> typeFields = new Dictionary<string, ISet<string>>();
         static Dictionary<String, ISet<String>> typeSqlParams = new Dictionary<string, ISet<String>>();
         static Dictionary<String, String> typeInsertSql = new Dictionary<string, string>();
+        static Dictionary<String, String> typeSelectSql = new Dictionary<string, string>();
         static int threshold = 100000;
         private static void InitFields()
         {
@@ -29,7 +31,7 @@ namespace vs2010.consoleApp.demo
         public static void Export()
         {
             InitFields();
-           
+
             int fileCounts = 1;
             //mdb
             String connectionString = String.Format(JetProvider, fileCounts + "_" + Table_name);
@@ -45,16 +47,16 @@ namespace vs2010.consoleApp.demo
                 String[] fieldValues = line.Split('|');
                 String type = fieldValues[fieldValues.Length - 1];
                 ACEParameterHelper parameterHelper = new ACEParameterHelper();
-                int i=0;
+                int i = 0;
                 foreach (String paramField in typeSqlParams[type])
                 {
                     parameterHelper.AddParameter<String>(paramField, fieldValues[i]);
                     i++;
                 }
-                AccessHelper.ExecuteNonQuery(conn,typeInsertSql[type], parameterHelper.GetParameters());
+                AccessHelper.ExecuteNonQuery(conn, typeInsertSql[type], parameterHelper.GetParameters());
                 if (counts >= threshold)
                 {
-                   
+
                     fileCounts++;
                     conn.Close();
                     connectionString = String.Format(JetProvider, fileCounts + "_" + Table_name);
@@ -64,12 +66,31 @@ namespace vs2010.consoleApp.demo
                     counts = 0;
                 }
                 counts++;
-                 line = reader.ReadLine();
+                line = reader.ReadLine();
             }
             if (conn != null)
                 conn.Close();
         }
+        public static void BatchExport()
+        {
+            InitFields();
 
+            int fileCounts = 1;
+            //mdb
+            String connectionString = String.Format(JetProvider, fileCounts + "_" + Table_name);
+            InitMdb(connectionString);
+            OleDbConnection conn = new OleDbConnection(connectionString);
+            conn.Open();
+            OleDbDataAdapter sd = new OleDbDataAdapter();
+            sd.SelectCommand = new OleDbCommand("select devid,data_time,data_value from CurrentTest", conn);
+            sd.InsertCommand = new OleDbCommand("insert into CurrentTest (devid,data_time,data_value) "
+                            + " values (@devid,@data_time,@data_value);", conn);
+            sd.InsertCommand.UpdatedRowSource = UpdateRowSource.None;
+            sd.UpdateBatchSize = 0;
+            DataSet dataset = new DataSet();
+            sd.Fill(dataset);
+
+        }
         public static void InitMdb(String connectionString)
         {
             CreateMdb(connectionString);
@@ -91,16 +112,19 @@ namespace vs2010.consoleApp.demo
             foreach (KeyValuePair<string, ISet<string>> pair in typeFields)
             {
                 StringBuilder builder = new StringBuilder(100);
-                StringBuilder insertSqlBuilder=new StringBuilder(100);
+                StringBuilder insertSqlBuilder = new StringBuilder(100);
+                StringBuilder selectSqlBuilder = new StringBuilder(100);
+                String selectSql = "select {0} from table_" + pair.Key;
                 String insertSql = "insert into table_" + pair.Key + "({0}) values ({1})";
-                ISet<String> paramsFields=new HashSet<string>();
+                ISet<String> paramsFields = new HashSet<string>();
                 builder.Append("CREATE TABLE table_" + pair.Key + " ( ");
                 int i = 0;
                 foreach (String field in pair.Value)
                 {
                     paramsFields.Add("@" + field);
-                    String tempfield = "["+field+"]";
+                    String tempfield = "[" + field + "]";
                     insertSqlBuilder.Append(tempfield);
+                    selectSqlBuilder.Append(tempfield);
                     builder.Append(tempfield);
                     builder.Append(" memo");
                     i++;
@@ -108,12 +132,17 @@ namespace vs2010.consoleApp.demo
                         continue;
                     builder.Append(",");
                     insertSqlBuilder.Append(",");
+                    selectSqlBuilder.Append(",");
                 }
                 builder.Append(" )");
-                typeInsertSql.Add(pair.Key, String.Format(insertSql,insertSqlBuilder.ToString(),String.Join(",",paramsFields)));
-                typeSqlParams.Add(pair.Key, paramsFields);
+                if (typeSelectSql[pair.Key] == null)
+                    typeSelectSql.Add(pair.Key, String.Format(selectSql, selectSqlBuilder.ToString()));
+                if (typeInsertSql[pair.Key] == null)
+                    typeInsertSql.Add(pair.Key, String.Format(insertSql, insertSqlBuilder.ToString(), String.Join(",", paramsFields)));
+                if (typeSqlParams[pair.Key] == null)
+                    typeSqlParams.Add(pair.Key, paramsFields);
                 Console.WriteLine(builder);
-                Console.WriteLine(typeInsertSql);
+
                 AccessHelper.ExecuteNonQuery(connectionString, builder.ToString());
 
 
