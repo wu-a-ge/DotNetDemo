@@ -42,7 +42,7 @@ namespace vs2010.consoleApp.demo
             int counts = 1;
             while (line != null)
             {
-                String[] fieldValues = line.Split(',');
+                String[] fieldValues = line.Split('|');
                 String type = fieldValues[fieldValues.Length - 1];
                 ACEParameterHelper parameterHelper = new ACEParameterHelper();
                 int i=0;
