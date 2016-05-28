@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.IO;
 
@@ -85,7 +86,7 @@ namespace DataExportConfiguration
             policy.Add("common.export.reduce.mb", txtReduceMb.Text.Trim());
             UTF8Encoding utf8 = new UTF8Encoding(false);
             StreamWriter writer = new StreamWriter(File.Create("json.config", 2048), utf8);
-            writer.WriteLine(policy.ToString());
+            writer.WriteLine(policy.ToString(Formatting.None));
             writer.Close();
         }
 
