@@ -43,7 +43,7 @@ namespace vs2010.consoleApp.demo
             int counts = 1;
             while (line != null)
             {
-                JObject obj = (JObject)JsonConvert.DeserializeObject(line,typeof(JObject));
+                JObject obj = JObject.Parse(line);
                 ACEParameterHelper parameterHelper = new ACEParameterHelper();
                 String type = obj["type"].ToString();
                 int i = 0;
