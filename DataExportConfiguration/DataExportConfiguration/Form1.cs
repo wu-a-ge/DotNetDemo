@@ -54,7 +54,7 @@ namespace DataExportConfiguration
             else
             {
 
-                policy.Add("common.export.data.table", cbxTable.SelectedValue.ToString());
+                policy.Add("common.export.data.table", cbxTable.SelectedItem.ToString());
                 policy.Add("common.export.data.fields", txtFields.Text.Trim());
             }
             //export format
