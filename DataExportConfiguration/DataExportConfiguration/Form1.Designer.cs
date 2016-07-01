@@ -79,6 +79,8 @@
             this.txtReduceNum = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.txtReduceMb = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txtSplitChar = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabTitlePage.SuspendLayout();
             this.tabOtherPage.SuspendLayout();
@@ -614,11 +616,30 @@
             this.txtReduceMb.TabIndex = 54;
             this.txtReduceMb.Text = "4096";
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(676, 583);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(65, 12);
+            this.label12.TabIndex = 55;
+            this.label12.Text = "文本分隔符";
+            // 
+            // txtSplitChar
+            // 
+            this.txtSplitChar.Location = new System.Drawing.Point(747, 579);
+            this.txtSplitChar.Name = "txtSplitChar";
+            this.txtSplitChar.Size = new System.Drawing.Size(100, 21);
+            this.txtSplitChar.TabIndex = 56;
+            this.txtSplitChar.Text = "\\t";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1133, 660);
+            this.Controls.Add(this.txtSplitChar);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.txtReduceMb);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.txtReduceNum);
@@ -700,6 +721,8 @@
         private System.Windows.Forms.TextBox txtReduceNum;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox txtReduceMb;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox txtSplitChar;
     }
 }
 

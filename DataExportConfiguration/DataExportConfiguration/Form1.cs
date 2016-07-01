@@ -84,6 +84,7 @@ namespace DataExportConfiguration
             policy.Add("common.export.data.rules", txtRules.Text.Trim());
             policy.Add("common.export.reduce.num", txtReduceNum.Text.Trim());
             policy.Add("common.export.reduce.mb", txtReduceMb.Text.Trim());
+            policy.Add("common.export.split.char", txtSplitChar.Text);
             UTF8Encoding utf8 = new UTF8Encoding(false);
             StreamWriter writer = new StreamWriter(File.Create("json.config", 2048), utf8);
             writer.WriteLine(policy.ToString(Formatting.None));
