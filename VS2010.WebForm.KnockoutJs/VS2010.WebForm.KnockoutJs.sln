@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VS2010.WebForm.KnockoutJs", "VS2010.WebForm.KnockoutJs\VS2010.WebForm.KnockoutJs.csproj", "{73D8297E-A71C-4455-A835-E431478CD7B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73D8297E-A71C-4455-A835-E431478CD7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D8297E-A71C-4455-A835-E431478CD7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D8297E-A71C-4455-A835-E431478CD7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D8297E-A71C-4455-A835-E431478CD7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+D:\Demo\UtilityLib\Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Demo\UtilityLib\Web\bin\Web.dll
+D:\Demo\UtilityLib\Web\bin\Web.pdb
+D:\Demo\UtilityLib\Web\bin\UtilityLib.dll
+D:\Demo\UtilityLib\Web\bin\UtilityLib.pdb
+D:\Demo\UtilityLib\Web\obj\Debug\Web.dll
+D:\Demo\UtilityLib\Web\obj\Debug\Web.pdb

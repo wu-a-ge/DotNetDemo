@@ -1,0 +1,23 @@
+E:\5173Site\Aot\Dev\Mongodb\MongodbManagementStudio\bin\MongodbManagementStudio.dll
+E:\5173Site\Aot\Dev\Mongodb\MongodbManagementStudio\bin\MongodbManagementStudio.pdb
+E:\5173Site\Aot\Dev\Mongodb\MongodbManagementStudio\bin\AjaxPro.2.dll
+E:\5173Site\Aot\Dev\Mongodb\MongodbManagementStudio\bin\gudusoft.gsqlparser.dll
+E:\5173Site\Aot\Dev\Mongodb\MongodbManagementStudio\bin\MongoDB.Driver.dll
+E:\5173Site\Aot\Dev\Mongodb\MongodbManagementStudio\bin\MongoDB.Driver.pdb
+E:\5173Site\Aot\Dev\Mongodb\MongodbManagementStudio\obj\Debug\ResolveAssemblyReference.cache
+E:\5173Site\Aot\Dev\Mongodb\MongodbManagementStudio\obj\Debug\MongodbManagementStudio.dll
+E:\5173Site\Aot\Dev\Mongodb\MongodbManagementStudio\obj\Debug\MongodbManagementStudio.pdb
+C:\Documents and Settings\Administrator\My Documents\下载\Mongodb\MongodbManagementStudio\bin\MongodbManagementStudio.dll
+C:\Documents and Settings\Administrator\My Documents\下载\Mongodb\MongodbManagementStudio\bin\MongodbManagementStudio.pdb
+C:\Documents and Settings\Administrator\My Documents\下载\Mongodb\MongodbManagementStudio\bin\AjaxPro.2.dll
+C:\Documents and Settings\Administrator\My Documents\下载\Mongodb\MongodbManagementStudio\bin\gudusoft.gsqlparser.dll
+C:\Documents and Settings\Administrator\My Documents\下载\Mongodb\MongodbManagementStudio\bin\MongoDB.Driver.dll
+C:\Documents and Settings\Administrator\My Documents\下载\Mongodb\MongodbManagementStudio\bin\MongoDB.Driver.pdb
+C:\Documents and Settings\Administrator\My Documents\下载\Mongodb\MongodbManagementStudio\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\下载\Mongodb\MongodbManagementStudio\obj\Debug\MongodbManagementStudio.dll
+C:\Documents and Settings\Administrator\My Documents\下载\Mongodb\MongodbManagementStudio\obj\Debug\MongodbManagementStudio.pdb
+E:\Demo\Mongodb Studio\MongodbManagementStudio\obj\Debug\ResolveAssemblyReference.cache
+E:\Demo\Mongodb Studio\MongodbManagementStudio\obj\Debug\MongodbManagementStudio.dll
+E:\Demo\Mongodb Studio\MongodbManagementStudio\obj\Debug\MongodbManagementStudio.pdb
+E:\Demo\Mongodb Studio\MongodbManagementStudio\bin\MongodbManagementStudio.dll
+E:\Demo\Mongodb Studio\MongodbManagementStudio\bin\MongodbManagementStudio.pdb

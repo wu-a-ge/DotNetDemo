@@ -1,0 +1,10 @@
+D:\projects\UrlRewriter\UrlRewriter\bin\Release\URLRewriter.dll
+D:\projects\UrlRewriter\UrlRewriter\bin\Release\URLRewriter.pdb
+D:\projects\UrlRewriter\UrlRewriter\obj\Release\ResolveAssemblyReference.cache
+D:\projects\UrlRewriter\UrlRewriter\obj\Release\URLRewriter.dll
+D:\projects\UrlRewriter\UrlRewriter\obj\Release\URLRewriter.pdb
+E:\Demo\UrlRewriter\UrlRewriter\UrlRewriter\bin\Release\URLRewriter.dll
+E:\Demo\UrlRewriter\UrlRewriter\UrlRewriter\bin\Release\URLRewriter.pdb
+E:\Demo\UrlRewriter\UrlRewriter\UrlRewriter\obj\Release\ResolveAssemblyReference.cache
+E:\Demo\UrlRewriter\UrlRewriter\UrlRewriter\obj\Release\URLRewriter.dll
+E:\Demo\UrlRewriter\UrlRewriter\UrlRewriter\obj\Release\URLRewriter.pdb

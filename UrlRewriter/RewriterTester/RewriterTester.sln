@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RewriterTester", "RewriterTester\RewriterTester.csproj", "{5D0B8A10-48F5-45CA-8F21-AB3E2EEFF90A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DC8B771B-477A-4133-A5F4-F55C62D97462} = {DC8B771B-477A-4133-A5F4-F55C62D97462}
+		{35EC74C6-7DBD-458A-B6B2-1E3254964CED} = {35EC74C6-7DBD-458A-B6B2-1E3254964CED}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLRewriter", "..\UrlRewriter\UrlRewriter\URLRewriter.csproj", "{DC8B771B-477A-4133-A5F4-F55C62D97462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionlessForm", "..\ActionlessForm\ActionlessForm\ActionlessForm.csproj", "{35EC74C6-7DBD-458A-B6B2-1E3254964CED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D0B8A10-48F5-45CA-8F21-AB3E2EEFF90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0B8A10-48F5-45CA-8F21-AB3E2EEFF90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0B8A10-48F5-45CA-8F21-AB3E2EEFF90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0B8A10-48F5-45CA-8F21-AB3E2EEFF90A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8B771B-477A-4133-A5F4-F55C62D97462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8B771B-477A-4133-A5F4-F55C62D97462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8B771B-477A-4133-A5F4-F55C62D97462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8B771B-477A-4133-A5F4-F55C62D97462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35EC74C6-7DBD-458A-B6B2-1E3254964CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35EC74C6-7DBD-458A-B6B2-1E3254964CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35EC74C6-7DBD-458A-B6B2-1E3254964CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35EC74C6-7DBD-458A-B6B2-1E3254964CED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

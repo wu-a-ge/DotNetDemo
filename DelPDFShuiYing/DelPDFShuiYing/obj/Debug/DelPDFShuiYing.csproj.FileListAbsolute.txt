@@ -1,0 +1,5 @@
+D:\Demo\DelPDFShuiYing\DelPDFShuiYing\bin\Debug\DelPDFShuiYing.exe
+D:\Demo\DelPDFShuiYing\DelPDFShuiYing\bin\Debug\DelPDFShuiYing.pdb
+D:\Demo\DelPDFShuiYing\DelPDFShuiYing\obj\Debug\ResolveAssemblyReference.cache
+D:\Demo\DelPDFShuiYing\DelPDFShuiYing\obj\Debug\DelPDFShuiYing.exe
+D:\Demo\DelPDFShuiYing\DelPDFShuiYing\obj\Debug\DelPDFShuiYing.pdb

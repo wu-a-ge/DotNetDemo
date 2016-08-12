@@ -1,0 +1,1 @@
+﻿document.getElementById("hideText").setAttribute("style", "display: none");

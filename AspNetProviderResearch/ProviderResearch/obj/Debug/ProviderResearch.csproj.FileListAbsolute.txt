@@ -1,0 +1,7 @@
+D:\ProviderResearch\ProviderResearch\obj\Debug\ResolveAssemblyReference.cache
+D:\ProviderResearch\ProviderResearch\bin\Debug\ProviderResearch.dll
+D:\ProviderResearch\ProviderResearch\bin\Debug\ProviderResearch.pdb
+D:\ProviderResearch\ProviderResearch\obj\Debug\ProviderResearch.dll
+D:\ProviderResearch\ProviderResearch\obj\Debug\ProviderResearch.pdb
+D:\Demo\AspNetProviderResearch\ProviderResearch\obj\Debug\ResolveAssemblyReference.cache
+D:\Demo\AspNetProviderResearch\ProviderResearch\obj\Debug\ProviderResearch.pdb

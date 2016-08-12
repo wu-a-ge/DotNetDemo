@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.WebUI", "SportsStore.WebUI\SportsStore.WebUI.csproj", "{EC4C6E7D-DC3E-402F-ADAD-94EC5DE59ED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.Domain", "SportsStore.Domain\SportsStore.Domain.csproj", "{F314BDA8-CB8D-4AC5-B480-CC6976AF7A17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.UnitTests", "SportsStore.UnitTests\SportsStore.UnitTests.csproj", "{5055F0D0-C490-43BC-87F7-CF23D494BDA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A5A5635C-521C-4B71-A8F3-D0223CEE5429}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		VS2010.Mvc3.SportsStore.vsmdi = VS2010.Mvc3.SportsStore.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = VS2010.Mvc3.SportsStore.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC4C6E7D-DC3E-402F-ADAD-94EC5DE59ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4C6E7D-DC3E-402F-ADAD-94EC5DE59ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4C6E7D-DC3E-402F-ADAD-94EC5DE59ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4C6E7D-DC3E-402F-ADAD-94EC5DE59ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F314BDA8-CB8D-4AC5-B480-CC6976AF7A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F314BDA8-CB8D-4AC5-B480-CC6976AF7A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F314BDA8-CB8D-4AC5-B480-CC6976AF7A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F314BDA8-CB8D-4AC5-B480-CC6976AF7A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5055F0D0-C490-43BC-87F7-CF23D494BDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5055F0D0-C490-43BC-87F7-CF23D494BDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5055F0D0-C490-43BC-87F7-CF23D494BDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5055F0D0-C490-43BC-87F7-CF23D494BDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

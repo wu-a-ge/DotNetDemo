@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VS2008.ConsoleApp.Algorithm", "VS2008.ConsoleApp.Algorithm\VS2008.ConsoleApp.Algorithm.csproj", "{88503B40-1FAD-4AE7-875C-9EB1E525D995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VS2008.ConsoleApp.TestAlgorithm", "VS2008.ConsoleApp.TestAlgorithm\VS2008.ConsoleApp.TestAlgorithm.csproj", "{CAA25DEE-A7E0-48CF-AD05-6973548D6652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VS2008.WinForm.Algorithm", "VS2008.WinForm.Algorithm\VS2008.WinForm.Algorithm.csproj", "{0CED2B13-98A9-40AC-9150-C0D3153F0F0E}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88503B40-1FAD-4AE7-875C-9EB1E525D995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88503B40-1FAD-4AE7-875C-9EB1E525D995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88503B40-1FAD-4AE7-875C-9EB1E525D995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88503B40-1FAD-4AE7-875C-9EB1E525D995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA25DEE-A7E0-48CF-AD05-6973548D6652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA25DEE-A7E0-48CF-AD05-6973548D6652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA25DEE-A7E0-48CF-AD05-6973548D6652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA25DEE-A7E0-48CF-AD05-6973548D6652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CED2B13-98A9-40AC-9150-C0D3153F0F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CED2B13-98A9-40AC-9150-C0D3153F0F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CED2B13-98A9-40AC-9150-C0D3153F0F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CED2B13-98A9-40AC-9150-C0D3153F0F0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

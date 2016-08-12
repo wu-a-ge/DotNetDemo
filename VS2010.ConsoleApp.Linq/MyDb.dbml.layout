@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="MyDb">
+  <DataContextMoniker Name="/MyDbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8f7081ca-e51f-418f-800e-25e9e8e3371b" absoluteBounds="3, 1, 2, 1.4483463541666668">
+      <DataClassMoniker Name="/MyDbDataContext/t1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4f9bea61-a546-472d-8efb-3502a7b2219c" absoluteBounds="3.0149999999999997, 1.46, 1.9700000000000002, 0.88834635416666674" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d3a018d5-70f1-4c4a-a49e-621658d9fb50" absoluteBounds="5, 3.25, 2, 1.2797265625">
+      <DataClassMoniker Name="/MyDbDataContext/children" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a8e3aeee-f12a-4f21-8063-3de7bf4058d5" absoluteBounds="5.015, 3.71, 1.9700000000000002, 0.7197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="623407c7-81c4-4458-b764-a0f628bb6d07" absoluteBounds="0.5, 2.625, 2, 1.1111067708333333">
+      <DataClassMoniker Name="/MyDbDataContext/father" />
+      <nestedChildShapes>
+        <elementListCompartment Id="46bd926b-4228-4c5e-9562-4602366e6cae" absoluteBounds="0.51500000000000012, 3.085, 1.9700000000000002, 0.55110677083333326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 3.49305338541667); (5 : 3.49305338541667)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MyDbDataContext/father/father_children" />
+      <nodes>
+        <classShapeMoniker Id="623407c7-81c4-4458-b764-a0f628bb6d07" />
+        <classShapeMoniker Id="d3a018d5-70f1-4c4a-a49e-621658d9fb50" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

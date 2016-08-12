@@ -1,0 +1,54 @@
+﻿
+
+如何使用本框架发布服务
+===========================================
+
+本框架提供5种方式可让您轻松地将一个C#方法做为服务公开。
+
+1. 使用MyServiceHandler处理器方式，我建议使用这种方式。
+   此方法需要在web.config中配置：
+       <add path="/MyService.axd" verb="*" validate="false" type="MySimpleServiceFramework.MyServiceHandler"/>
+   
+   客户端访问地址：http://localhost:11647/MyService.axd?sc=OrderService&op=QueryOrder
+   参数[sc]表示类名，参数[op]表示要调用的方法。
+   
+2. 使用MyServiceUrlRoutingModule 或者 MyServiceUrlRoutingModule2
+   此方法需要在web.config中配置：
+      <add name="MyServiceUrlRoutingModule" type="MySimpleServiceFramework.MyServiceUrlRoutingModule"/>
+
+   客户端访问地址：http://localhost:11647/service/OrderService/QueryOrder
+
+3. 使用MyServiceUrlRewriteModule
+   此方法需要在web.config中配置：(2个配置项，在不同的节点下)
+      <add name="MyServiceUrlRewriteModule" type="MySimpleServiceFramework.MyServiceUrlRewriteModule"/>      
+      <add path="/MyService.axd" verb="*" validate="false" type="MySimpleServiceFramework.MyServiceHandler"/>
+
+   客户端访问地址：http://localhost:11647/service/OrderService/QueryOrder
+
+4. 使用DirectProcessRequestMoudle
+   此方法需要在web.config中配置：
+      <add name="DirectProcessRequestMoudle" type="MySimpleServiceFramework.DirectProcessRequestMoudle"/>
+
+   客户端访问地址：http://localhost:11647/service/OrderService/QueryOrder
+   
+5. 自己创建一个ashx文件，请参考MyService.ashx
+   客户端访问地址：http://localhost:11647/MyService.ashx?sc=OrderService&op=QueryOrder
+   参数[sc]表示类名，参数[op]表示要调用的方法。
+
+
+注意
+===========================================
+
+1. 以上三个Module不能同时使用，一次只能使用一种。
+
+2. 使用希望使用gzip功能，请配置：(它会自适应客户端的行为)
+     <add name="DuplexGzipModule" type="MySimpleServiceFramework.DuplexGzipModule"/>
+
+
+
+补充说明
+===========================================
+
+1. 如果写服务类，请参考项目ServiceLibrary下的【说明.txt】文件。
+
+2. 客户端的调用方式请参考项目WindowsFormsApplication1

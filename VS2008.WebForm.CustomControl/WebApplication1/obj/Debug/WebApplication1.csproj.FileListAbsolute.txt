@@ -1,0 +1,7 @@
+E:\Demo\VS2008.WebForm.CustomControl\WebApplication1\bin\WebApplication1.dll
+E:\Demo\VS2008.WebForm.CustomControl\WebApplication1\bin\WebApplication1.pdb
+E:\Demo\VS2008.WebForm.CustomControl\WebApplication1\bin\WebCustomControl.dll
+E:\Demo\VS2008.WebForm.CustomControl\WebApplication1\bin\WebCustomControl.pdb
+E:\Demo\VS2008.WebForm.CustomControl\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+E:\Demo\VS2008.WebForm.CustomControl\WebApplication1\obj\Debug\WebApplication1.dll
+E:\Demo\VS2008.WebForm.CustomControl\WebApplication1\obj\Debug\WebApplication1.pdb

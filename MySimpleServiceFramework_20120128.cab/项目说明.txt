@@ -1,0 +1,5 @@
+﻿
+
+这些示例是为我的博客【用Asp.net写自己的服务框架】准备的。
+
+地址：http://www.cnblogs.com/fish-li/archive/2011/09/05/2168073.html

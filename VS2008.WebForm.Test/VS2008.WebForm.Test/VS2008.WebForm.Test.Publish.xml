@@ -1,0 +1,59 @@
+<publishData>
+  <publishTarget publishUrl="C:\Users\think\Desktop\aa\">
+    <file relUrl="HTMLPage1.htm" publishTime="03/15/2012 23:36:29" />
+    <file relUrl="Ajax.aspx" publishTime="03/15/2012 21:18:43" />
+    <file relUrl="TestUserControl.aspx" publishTime="12/26/2011 22:42:56" />
+    <file relUrl="WebService1.asmx" publishTime="12/27/2011 00:30:08" />
+    <file relUrl="Global.asax" publishTime="11/26/2011 16:14:27" />
+    <file relUrl="Web.config" publishTime="03/15/2012 21:18:43" />
+    <file relUrl="bin/VS2008.WebForm.Test.pdb" publishTime="03/15/2012 23:41:37" />
+    <file relUrl="jquery-1.4.4.min.js" publishTime="11/26/2011 16:14:27" />
+    <file relUrl="JSRegex.aspx" publishTime="12/16/2011 23:51:00" />
+    <file relUrl="images/ffpic3.jpg" publishTime="11/26/2011 16:14:27" />
+    <file relUrl="FormField.aspx" publishTime="12/13/2011 20:09:59" />
+    <file relUrl="GridView.aspx" publishTime="11/26/2011 16:14:27" />
+    <file relUrl="NoServerForm.aspx" publishTime="12/27/2011 21:22:51" />
+    <file relUrl="images/btnsb.gif" publishTime="11/26/2011 16:14:27" />
+    <file relUrl="JSRepalce.aspx" publishTime="12/27/2011 21:07:09" />
+    <file relUrl="bin/VS2008.WebForm.Test.dll" publishTime="03/15/2012 23:41:37" />
+    <file relUrl="JSSpecial.aspx" publishTime="12/16/2011 23:51:00" />
+    <file relUrl="TestJSCode.aspx" publishTime="12/28/2011 20:46:09" />
+    <file relUrl="WebUserControl2.ascx" publishTime="12/26/2011 22:49:48" />
+  </publishTarget>
+  <publishTarget publishUrl="ftp://174.128.236.190/">
+    <file relUrl="bin/VS2008.WebForm.Test.dll" publishTime="03/15/2012 23:26:16" />
+    <file relUrl="TestUserControl.aspx" publishTime="12/26/2011 22:42:56" />
+    <file relUrl="WebService1.asmx" publishTime="12/27/2011 00:30:08" />
+    <file relUrl="Global.asax" publishTime="11/26/2011 16:14:27" />
+    <file relUrl="Web.config" publishTime="03/15/2012 21:18:43" />
+    <file relUrl="bin/VS2008.WebForm.Test.pdb" publishTime="03/15/2012 23:26:16" />
+    <file relUrl="jquery-1.4.4.min.js" publishTime="11/26/2011 16:14:27" />
+    <file relUrl="Ajax.aspx" publishTime="03/15/2012 21:18:43" />
+    <file relUrl="JSRegex.aspx" publishTime="12/16/2011 23:51:00" />
+    <file relUrl="images/ffpic3.jpg" publishTime="11/26/2011 16:14:27" />
+    <file relUrl="FormField.aspx" publishTime="12/13/2011 20:09:59" />
+    <file relUrl="GridView.aspx" publishTime="11/26/2011 16:14:27" />
+    <file relUrl="NoServerForm.aspx" publishTime="12/27/2011 21:22:51" />
+    <file relUrl="images/btnsb.gif" publishTime="11/26/2011 16:14:27" />
+    <file relUrl="JSRepalce.aspx" publishTime="12/27/2011 21:07:09" />
+    <file relUrl="JSSpecial.aspx" publishTime="12/16/2011 23:51:00" />
+    <file relUrl="TestJSCode.aspx" publishTime="12/28/2011 20:46:09" />
+    <file relUrl="WebUserControl2.ascx" publishTime="12/26/2011 22:49:48" />
+  </publishTarget>
+  <publishTarget publishUrl="E:\Demo\Release\">
+    <file relUrl="Global.asax" publishTime="11/30/2011 09:28:10" />
+    <file relUrl="FormField.aspx" publishTime="12/13/2011 09:56:49" />
+    <file relUrl="images/ffpic3.jpg" publishTime="11/30/2011 09:28:10" />
+    <file relUrl="WebUserControl1.ascx" publishTime="12/15/2011 11:26:18" />
+    <file relUrl="TestUserControl.aspx" publishTime="12/15/2011 11:26:50" />
+    <file relUrl="GridView.aspx" publishTime="11/30/2011 09:28:10" />
+    <file relUrl="jquery-1.4.4.min.js" publishTime="11/30/2011 09:28:10" />
+    <file relUrl="images/btnsb.gif" publishTime="11/30/2011 09:28:10" />
+    <file relUrl="JSSpecial.aspx" publishTime="12/13/2011 11:31:34" />
+    <file relUrl="bin/VS2008.WebForm.Test.pdb" publishTime="12/15/2011 12:30:41" />
+    <file relUrl="JSRepalce.aspx" publishTime="12/13/2011 09:50:55" />
+    <file relUrl="JSRegex.aspx" publishTime="12/14/2011 18:05:18" />
+    <file relUrl="Web.config" publishTime="11/30/2011 09:28:10" />
+    <file relUrl="bin/VS2008.WebForm.Test.dll" publishTime="12/15/2011 12:30:41" />
+  </publishTarget>
+</publishData>

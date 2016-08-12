@@ -1,0 +1,2 @@
+﻿对FormSerializerProvider做了些改进，能基本满足一些Ajax的需要。
+增加了AjaxServiceHandler，对Ajax有了更好的支持。

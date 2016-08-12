@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Mappings>
+    <!--databaseType = "Sql|Oracle"-->
+    <Mapping databaseType="Sql"
+             connectionString  ="Data Source=.;Initial Catalog=F:\MVCPAGERSAMPLE\APP_DATA\NORTHWND.MDF;User ID=sa;Password=sa"
+             tableName ="Customers"
+             className ="Customers"
+             selectCommand ="SELECT [CustomerID],[CompanyName],[ContactName],[ContactTitle],[Address],[City],[Region],[PostalCode],[Country],[Phone],[Fax] FROM [F:\MVCPAGERSAMPLE\APP_DATA\NORTHWND.MDF].[dbo].[Customers]"
+             allowPartialClass="true"
+             allowCollectionClass="true"
+             collectionClassName="CustomersCollection">
+    </Mapping>
+
+    
+</Mappings>

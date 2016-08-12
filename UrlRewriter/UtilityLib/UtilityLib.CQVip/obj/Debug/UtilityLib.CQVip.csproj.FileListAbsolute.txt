@@ -1,0 +1,15 @@
+D:\Demo\UtilityLib\UtilityLib.CQVip\obj\Debug\ResolveAssemblyReference.cache
+D:\Demo\UtilityLib\UtilityLib.CQVip\obj\Debug\Interop.CTLICENCESVCLib.dll
+D:\Demo\UtilityLib\UtilityLib.CQVip\obj\Debug\Interop.VipIELILib.dll
+D:\Demo\UtilityLib\UtilityLib.CQVip\obj\Debug\UtilityLib.CQVip.csproj.ResolveComReference.cache
+D:\Demo\UtilityLib\UtilityLib.CQVip\bin\Debug\UtilityLib.CQVip.dll
+D:\Demo\UtilityLib\UtilityLib.CQVip\bin\Debug\UtilityLib.CQVip.pdb
+D:\Demo\UtilityLib\UtilityLib.CQVip\bin\Debug\Interop.CTLICENCESVCLib.dll
+D:\Demo\UtilityLib\UtilityLib.CQVip\bin\Debug\Interop.VipIELILib.dll
+D:\Demo\UtilityLib\UtilityLib.CQVip\obj\Debug\UtilityLib.CQVip.dll
+D:\Demo\UtilityLib\UtilityLib.CQVip\obj\Debug\UtilityLib.CQVip.pdb
+E:\Demo\UtilityLib\UtilityLib.CQVip\obj\Debug\ResolveAssemblyReference.cache
+E:\Demo\UtilityLib\UtilityLib.CQVip\obj\Debug\UtilityLib.CQVip.csproj.ResolveComReference.cache
+E:\Demo\UtilityLib\UtilityLib.CQVip\obj\Debug\UtilityLib.CQVip.pdb
+D:\Demo\UtilityLib\UtilityLib.CQVip\bin\Debug\UtilityLib.dll
+D:\Demo\UtilityLib\UtilityLib.CQVip\bin\Debug\UtilityLib.pdb

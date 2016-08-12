@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{91ECE830-9ADD-4CE5-9AD2-D46C6820BCB5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebCustomControl</RootNamespace>
+    <AssemblyName>WebCustomControl</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Nonshipping>true</Nonshipping>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalculatorControl.cs" />
+    <Compile Include="ClientCallbackControl.cs" />
+    <Compile Include="ControlStateControl.cs" />
+    <Compile Include="CustomCollectionPropertyConverter.cs" />
+    <Compile Include="CustomCollectionPropertyConverterControl.cs" />
+    <Compile Include="CustomValidateControl.cs" />
+    <Compile Include="EmbeddedResourceControl.cs" />
+    <Compile Include="FaceStyle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KingTextBox.cs" />
+    <Compile Include="KingTextBoxCanPostEvent.cs" />
+    <Compile Include="KingTextBoxUseEvents.cs" />
+    <Compile Include="PostBackEventControl.cs" />
+    <Compile Include="PostBackFromClientControl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchControl.cs" />
+    <Compile Include="SearchControlBubbleUp.cs" />
+    <Compile Include="SearchEventArgs.cs" />
+    <Compile Include="SessionPageAdapter.cs" />
+    <Compile Include="SolidCoordinate.cs" />
+    <Compile Include="SolidCoordinateConverter.cs" />
+    <Compile Include="SolidCoordinateTypeConverterControl.cs" />
+    <Compile Include="ViewStateControl.cs" />
+    <Compile Include="ViewStateTypeConverter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\BG.jpg" />
+    <EmbeddedResource Include="images\down.gif" />
+    <EmbeddedResource Include="images\JS.jpg" />
+    <EmbeddedResource Include="images\up.gif" />
+    <EmbeddedResource Include="images\w_03.gif" />
+    <EmbeddedResource Include="images\w_05.gif" />
+    <EmbeddedResource Include="images\w_08.gif" />
+    <EmbeddedResource Include="images\w_11.gif" />
+    <EmbeddedResource Include="images\w_14.gif" />
+    <EmbeddedResource Include="images\w_15.gif" />
+    <EmbeddedResource Include="images\XL.jpg" />
+    <EmbeddedResource Include="js\ClientValidate.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\EmbeddedResource_JPG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="js\EmbeddedResource_JS.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CSS\EmbeddedResource_CSS.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EmbeddedResourceControl.bmp" />
+    <Content Include="Sound\clock.avi" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

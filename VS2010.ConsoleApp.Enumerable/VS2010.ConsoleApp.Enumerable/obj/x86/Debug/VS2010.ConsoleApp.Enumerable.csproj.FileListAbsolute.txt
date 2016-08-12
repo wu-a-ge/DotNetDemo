@@ -1,0 +1,5 @@
+F:\快盘\Demo\VS2010.ConsoleApp.Enumerable\VS2010.ConsoleApp.Enumerable\bin\Debug\VS2010.ConsoleApp.Enumerable.exe
+F:\快盘\Demo\VS2010.ConsoleApp.Enumerable\VS2010.ConsoleApp.Enumerable\bin\Debug\VS2010.ConsoleApp.Enumerable.pdb
+F:\快盘\Demo\VS2010.ConsoleApp.Enumerable\VS2010.ConsoleApp.Enumerable\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\快盘\Demo\VS2010.ConsoleApp.Enumerable\VS2010.ConsoleApp.Enumerable\obj\x86\Debug\VS2010.ConsoleApp.Enumerable.exe
+F:\快盘\Demo\VS2010.ConsoleApp.Enumerable\VS2010.ConsoleApp.Enumerable\obj\x86\Debug\VS2010.ConsoleApp.Enumerable.pdb

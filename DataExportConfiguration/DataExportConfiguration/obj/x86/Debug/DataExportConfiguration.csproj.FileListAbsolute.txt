@@ -1,0 +1,9 @@
+D:\open-source-projects\github\dotnetdemo\DataExportConfiguration\DataExportConfiguration\bin\Debug\DataExportConfiguration.exe
+D:\open-source-projects\github\dotnetdemo\DataExportConfiguration\DataExportConfiguration\bin\Debug\DataExportConfiguration.pdb
+D:\open-source-projects\github\dotnetdemo\DataExportConfiguration\DataExportConfiguration\bin\Debug\Newtonsoft.Json.dll
+D:\open-source-projects\github\dotnetdemo\DataExportConfiguration\DataExportConfiguration\obj\x86\Debug\DataExportConfiguration.Form1.resources
+D:\open-source-projects\github\dotnetdemo\DataExportConfiguration\DataExportConfiguration\obj\x86\Debug\DataExportConfiguration.Properties.Resources.resources
+D:\open-source-projects\github\dotnetdemo\DataExportConfiguration\DataExportConfiguration\obj\x86\Debug\DataExportConfiguration.csproj.GenerateResource.Cache
+D:\open-source-projects\github\dotnetdemo\DataExportConfiguration\DataExportConfiguration\obj\x86\Debug\DataExportConfiguration.exe
+D:\open-source-projects\github\dotnetdemo\DataExportConfiguration\DataExportConfiguration\obj\x86\Debug\DataExportConfiguration.pdb
+D:\open-source-projects\github\dotnetdemo\DataExportConfiguration\DataExportConfiguration\obj\x86\Debug\DataExportConfiguration.csprojResolveAssemblyReference.cache

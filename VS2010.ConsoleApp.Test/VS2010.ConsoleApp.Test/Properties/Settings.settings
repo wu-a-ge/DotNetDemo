@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="VS2010.ConsoleApp.Test.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="VS2010_ConsoleApp_Test_WebReference_WsdlSearchable" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.30.89:8090/vipCloud/service/WsdlSearchable</Value>
+    </Setting>
+    <Setting Name="VS2010_ConsoleApp_Test_WebServiceHeaderTest_WebServiceWithSoapHeader" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.20.24:20001/WebServiceWithSoapHeader.asmx</Value>
+    </Setting>
+    <Setting Name="VS2010_ConsoleApp_Test_Tree_SearchableService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.irtree.cn:94/SearchableService.asmx</Value>
+    </Setting>
+    <Setting Name="VS2010_ConsoleApp_Test_ReaderInfoService_ReaderInfoService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.20.24:8090/userManager/vipCloud/webService/ReaderInfo</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

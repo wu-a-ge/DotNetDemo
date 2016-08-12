@@ -1,0 +1,5 @@
+D:\Demo\ComposableAPIGenericMethod\ComposableAPIGenericMethod\bin\Debug\ComposableAPIGenericMethod.exe
+D:\Demo\ComposableAPIGenericMethod\ComposableAPIGenericMethod\bin\Debug\ComposableAPIGenericMethod.pdb
+D:\Demo\ComposableAPIGenericMethod\ComposableAPIGenericMethod\obj\Debug\ResolveAssemblyReference.cache
+D:\Demo\ComposableAPIGenericMethod\ComposableAPIGenericMethod\obj\Debug\ComposableAPIGenericMethod.exe
+D:\Demo\ComposableAPIGenericMethod\ComposableAPIGenericMethod\obj\Debug\ComposableAPIGenericMethod.pdb

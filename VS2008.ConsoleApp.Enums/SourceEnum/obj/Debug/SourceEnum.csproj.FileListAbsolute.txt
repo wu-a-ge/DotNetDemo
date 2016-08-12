@@ -1,0 +1,5 @@
+E:\Demo\VS2008.ConsoleApp.Enums\SourceEnum\bin\Debug\SourceEnum.dll
+E:\Demo\VS2008.ConsoleApp.Enums\SourceEnum\bin\Debug\SourceEnum.pdb
+E:\Demo\VS2008.ConsoleApp.Enums\SourceEnum\obj\Debug\ResolveAssemblyReference.cache
+E:\Demo\VS2008.ConsoleApp.Enums\SourceEnum\obj\Debug\SourceEnum.dll
+E:\Demo\VS2008.ConsoleApp.Enums\SourceEnum\obj\Debug\SourceEnum.pdb

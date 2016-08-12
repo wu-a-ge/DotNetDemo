@@ -1,0 +1,10 @@
+D:\Demo\UtilityLib\UtilityLib\bin\Debug\UtilityLib.dll
+D:\Demo\UtilityLib\UtilityLib\bin\Debug\UtilityLib.pdb
+D:\Demo\UtilityLib\UtilityLib\obj\Debug\ResolveAssemblyReference.cache
+D:\Demo\UtilityLib\UtilityLib\obj\Debug\UtilityLib.dll
+D:\Demo\UtilityLib\UtilityLib\obj\Debug\UtilityLib.pdb
+E:\Demo\UtilityLib\UtilityLib\bin\Debug\UtilityLib.dll
+E:\Demo\UtilityLib\UtilityLib\bin\Debug\UtilityLib.pdb
+E:\Demo\UtilityLib\UtilityLib\obj\Debug\ResolveAssemblyReference.cache
+E:\Demo\UtilityLib\UtilityLib\obj\Debug\UtilityLib.dll
+E:\Demo\UtilityLib\UtilityLib\obj\Debug\UtilityLib.pdb

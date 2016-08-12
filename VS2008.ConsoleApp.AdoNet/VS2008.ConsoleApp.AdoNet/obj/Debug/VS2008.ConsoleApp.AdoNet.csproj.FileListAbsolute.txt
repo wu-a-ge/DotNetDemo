@@ -1,0 +1,15 @@
+D:\Demo\VS2008.ConsoleApp.AdoNet\VS2008.ConsoleApp.AdoNet\bin\Debug\VS2008.ConsoleApp.AdoNet.exe.config
+D:\Demo\VS2008.ConsoleApp.AdoNet\VS2008.ConsoleApp.AdoNet\bin\Debug\VS2008.ConsoleApp.AdoNet.exe
+D:\Demo\VS2008.ConsoleApp.AdoNet\VS2008.ConsoleApp.AdoNet\bin\Debug\VS2008.ConsoleApp.AdoNet.pdb
+D:\Demo\VS2008.ConsoleApp.AdoNet\VS2008.ConsoleApp.AdoNet\obj\Debug\ResolveAssemblyReference.cache
+D:\Demo\VS2008.ConsoleApp.AdoNet\VS2008.ConsoleApp.AdoNet\obj\Debug\VS2008.ConsoleApp.AdoNet.exe
+D:\Demo\VS2008.ConsoleApp.AdoNet\VS2008.ConsoleApp.AdoNet\obj\Debug\VS2008.ConsoleApp.AdoNet.pdb
+E:\Demo\VS2008.ConsoleApp.AdoNet\VS2008.ConsoleApp.AdoNet\bin\Debug\VS2008.ConsoleApp.AdoNet.exe.config
+E:\Demo\VS2008.ConsoleApp.AdoNet\VS2008.ConsoleApp.AdoNet\obj\Debug\VS2008.ConsoleApp.AdoNet.exe
+E:\Demo\VS2008.ConsoleApp.AdoNet\VS2008.ConsoleApp.AdoNet\obj\Debug\VS2008.ConsoleApp.AdoNet.pdb
+E:\Demo\VS2008.ConsoleApp.AdoNet\VS2008.ConsoleApp.AdoNet\bin\Debug\VS2008.ConsoleApp.AdoNet.exe
+E:\Demo\VS2008.ConsoleApp.AdoNet\VS2008.ConsoleApp.AdoNet\bin\Debug\VS2008.ConsoleApp.AdoNet.pdb
+E:\Demo\VS2008.ConsoleApp.AdoNet\VS2008.ConsoleApp.AdoNet\obj\Debug\ResolveAssemblyReference.cache
+E:\快盘\Demo\VS2008.ConsoleApp.AdoNet\VS2008.ConsoleApp.AdoNet\bin\Debug\VS2008.ConsoleApp.AdoNet.exe.config
+E:\快盘\Demo\VS2008.ConsoleApp.AdoNet\VS2008.ConsoleApp.AdoNet\obj\Debug\VS2008.ConsoleApp.AdoNet.exe
+E:\快盘\Demo\VS2008.ConsoleApp.AdoNet\VS2008.ConsoleApp.AdoNet\obj\Debug\VS2008.ConsoleApp.AdoNet.pdb

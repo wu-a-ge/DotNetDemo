@@ -1,0 +1,7 @@
+E:\Demo\VS2010.WebForm.DownFile\VS2010.WebForm.DownFile\obj\Debug\ResolveAssemblyReference.cache
+E:\Demo\VS2010.WebForm.DownFile\VS2010.WebForm.DownFile\bin\VS2010.WebForm.DownFile.dll
+E:\Demo\VS2010.WebForm.DownFile\VS2010.WebForm.DownFile\bin\VS2010.WebForm.DownFile.pdb
+E:\Demo\VS2010.WebForm.DownFile\VS2010.WebForm.DownFile\obj\Debug\VS2010.WebForm.DownFile.dll
+E:\Demo\VS2010.WebForm.DownFile\VS2010.WebForm.DownFile\obj\Debug\VS2010.WebForm.DownFile.pdb
+E:\Demo\VS2010.WebForm.DownFile\VS2010.WebForm.DownFile\bin\UtilityLib.WebHelper.dll
+E:\Demo\VS2010.WebForm.DownFile\VS2010.WebForm.DownFile\bin\UtilityLib.WebHelper.pdb

@@ -1,0 +1,19 @@
+<publishData>
+  <publishTarget publishUrl="C:\Users\xiaofu\Desktop\test\">
+    <file relUrl="App_GlobalResources/CurrentResource.en.resx" publishTime="05/06/2013 20:13:12" />
+    <file relUrl="bin/VS2008.WebForm.LocalizeAndGlobalize.dll" publishTime="05/06/2013 20:22:17" />
+    <file relUrl="WebForm1.aspx" publishTime="12/06/2012 13:20:45" />
+    <file relUrl="App_LocalResources/WebForm3.aspx.en-us.resx" publishTime="12/06/2012 13:20:45" />
+    <file relUrl="App_LocalResources/WebForm3.aspx.zh-cn.resx" publishTime="12/06/2012 13:20:45" />
+    <file relUrl="bin/VS2008.WebForm.LocalizeAndGlobalize.pdb" publishTime="05/06/2013 20:22:17" />
+    <file relUrl="Web.config" publishTime="12/06/2012 13:20:45" />
+    <file relUrl="Default.aspx" publishTime="12/06/2012 13:20:45" />
+    <file relUrl="bin/VS2008.WebForm.Resources.dll" publishTime="05/06/2013 20:17:17" />
+    <file relUrl="App_GlobalResources/CurrentResource.resx" publishTime="05/06/2013 20:12:54" />
+    <file relUrl="bin/VS2008.WebForm.Resources.pdb" publishTime="05/06/2013 20:17:16" />
+    <file relUrl="App_LocalResources/WebForm3.aspx.en.resx" publishTime="12/06/2012 13:20:45" />
+    <file relUrl="App_LocalResources/WebForm3.aspx.resx" publishTime="12/06/2012 13:20:45" />
+    <file relUrl="WebForm2.aspx" publishTime="12/06/2012 13:20:45" />
+    <file relUrl="WebForm3.aspx" publishTime="05/06/2013 20:15:38" />
+  </publishTarget>
+</publishData>

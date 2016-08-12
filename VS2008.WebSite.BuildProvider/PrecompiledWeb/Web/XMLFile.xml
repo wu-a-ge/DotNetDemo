@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Mappings namespace="OrmBuildProviderSln">
+    <!--databaseType = "Sql|Oracle"-->
+    <Mapping databaseType="Sql"
+             connectionString  ="Data Source=localhost\sqlexpress;Initial Catalog=MsPetShop4;Integrated Security=SSPI;Timeout=5;Application Name=OrmBuildProviderWeb"
+             tableName ="Product"
+             className ="Product"
+             selectCommand ="SELECT [ProductId] as [ProductId]
+                                             ,[CategoryId] as CategoryId
+                                             ,[Name] as Name
+                                             ,[Descn] as Descn
+                                             ,[Image] as Image
+                                   FROM [MSPetShop4].[dbo].[Product]"
+             allowPartialClass="true"
+             allowCollectionClass="true"
+             collectionClassName="ProductCollection">
+    </Mapping>
+
+    <Mapping databaseType="Oracle"
+       connectionString ="Data Source=ORA252;User Id=trig;Password=trig;"
+       tableName ="Customer"
+       className ="Customer"
+       selectCommand ="select customercode, regielicenceno, customername, address, phone, booker, zhuanmailx, businessform, organizemode, jingyingfs, issuedate, disable, issuedept, specdelivery from tg_customer"
+       allowPartialClass="true"
+       allowCollectionClass="true"
+       collectionClassName="CustomerCollection">
+    </Mapping>
+</Mappings>

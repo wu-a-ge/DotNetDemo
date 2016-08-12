@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://vipcloud.cqvip.com/vipCloud/webService/ReaderInfo/service" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://vipcloud.cqvip.com/vipCloud/webService/ReaderInfo" name="ReaderInfoService" targetNamespace="http://vipcloud.cqvip.com/vipCloud/webService/ReaderInfo/service" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://vipcloud.cqvip.com/vipCloud/webService/ReaderInfo" location="http://192.168.30.47:9090/userManager/vipCloud/webService/ReaderInfo?wsdl=ReaderInfoService.wsdl" />
+  <wsdl:types />
+  <wsdl:binding name="ReaderInfoServiceSoapBinding" type="ns1:ReaderInfoService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="add">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="add">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="addResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="delete">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="deleteResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="update">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="update">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="updateResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getListsByPage">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getListsByPage">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getListsByPageResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="counts">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="counts">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="countsResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserInfo">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getUserInfo">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getUserInfoResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="countsByGroup">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="countsByGroup">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="countsByGroupResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getListsByIds">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getListsByIds">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getListsByIdsResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ReaderInfoService">
+    <wsdl:port name="ReaderInfoService" binding="tns:ReaderInfoServiceSoapBinding">
+      <soap:address location="http://192.168.30.47:9090/userManager/vipCloud/webService/ReaderInfo" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://vipservice.cqvip.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://vipservice.cqvip.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://vipservice.cqvip.com/">
+      <s:element name="ChargeOrder">
+        <s:complexType />
+      </s:element>
+      <s:element name="ChargeOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ChargeOrderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckAccount">
+        <s:complexType />
+      </s:element>
+      <s:element name="CheckAccountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckAccountResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ChargeOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:ChargeOrder" />
+  </wsdl:message>
+  <wsdl:message name="ChargeOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:ChargeOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckAccountSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckAccount" />
+  </wsdl:message>
+  <wsdl:message name="CheckAccountSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="ChargeOrderHttpGetIn" />
+  <wsdl:message name="ChargeOrderHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckAccountHttpGetIn" />
+  <wsdl:message name="CheckAccountHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ChargeOrderHttpPostIn" />
+  <wsdl:message name="ChargeOrderHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckAccountHttpPostIn" />
+  <wsdl:message name="CheckAccountHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="CalisYWCDSoap">
+    <wsdl:operation name="ChargeOrder">
+      <wsdl:input message="tns:ChargeOrderSoapIn" />
+      <wsdl:output message="tns:ChargeOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckAccount">
+      <wsdl:input message="tns:CheckAccountSoapIn" />
+      <wsdl:output message="tns:CheckAccountSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="CalisYWCDHttpGet">
+    <wsdl:operation name="ChargeOrder">
+      <wsdl:input message="tns:ChargeOrderHttpGetIn" />
+      <wsdl:output message="tns:ChargeOrderHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckAccount">
+      <wsdl:input message="tns:CheckAccountHttpGetIn" />
+      <wsdl:output message="tns:CheckAccountHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="CalisYWCDHttpPost">
+    <wsdl:operation name="ChargeOrder">
+      <wsdl:input message="tns:ChargeOrderHttpPostIn" />
+      <wsdl:output message="tns:ChargeOrderHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckAccount">
+      <wsdl:input message="tns:CheckAccountHttpPostIn" />
+      <wsdl:output message="tns:CheckAccountHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CalisYWCDSoap" type="tns:CalisYWCDSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ChargeOrder">
+      <soap:operation soapAction="http://vipservice.cqvip.com/ChargeOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckAccount">
+      <soap:operation soapAction="http://vipservice.cqvip.com/CheckAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CalisYWCDSoap12" type="tns:CalisYWCDSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ChargeOrder">
+      <soap12:operation soapAction="http://vipservice.cqvip.com/ChargeOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckAccount">
+      <soap12:operation soapAction="http://vipservice.cqvip.com/CheckAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CalisYWCDHttpGet" type="tns:CalisYWCDHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="ChargeOrder">
+      <http:operation location="/ChargeOrder" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckAccount">
+      <http:operation location="/CheckAccount" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CalisYWCDHttpPost" type="tns:CalisYWCDHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="ChargeOrder">
+      <http:operation location="/ChargeOrder" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckAccount">
+      <http:operation location="/CheckAccount" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CalisYWCD">
+    <wsdl:port name="CalisYWCDSoap" binding="tns:CalisYWCDSoap">
+      <soap:address location="http://localhost:30000/CalisYWCD.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CalisYWCDSoap12" binding="tns:CalisYWCDSoap12">
+      <soap12:address location="http://localhost:30000/CalisYWCD.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CalisYWCDHttpGet" binding="tns:CalisYWCDHttpGet">
+      <http:address location="http://localhost:30000/CalisYWCD.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CalisYWCDHttpPost" binding="tns:CalisYWCDHttpPost">
+      <http:address location="http://localhost:30000/CalisYWCD.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

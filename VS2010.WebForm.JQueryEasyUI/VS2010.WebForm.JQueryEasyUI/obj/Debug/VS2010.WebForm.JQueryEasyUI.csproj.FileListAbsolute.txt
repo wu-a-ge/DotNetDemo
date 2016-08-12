@@ -1,0 +1,15 @@
+F:\快盘\Demo\VS2010.WebForm.JQueryEasyUI\VS2010.WebForm.JQueryEasyUI\bin\VS2010.WebForm.JQueryEasyUI.dll
+F:\快盘\Demo\VS2010.WebForm.JQueryEasyUI\VS2010.WebForm.JQueryEasyUI\bin\VS2010.WebForm.JQueryEasyUI.pdb
+F:\快盘\Demo\VS2010.WebForm.JQueryEasyUI\VS2010.WebForm.JQueryEasyUI\obj\Debug\ResolveAssemblyReference.cache
+F:\快盘\Demo\VS2010.WebForm.JQueryEasyUI\VS2010.WebForm.JQueryEasyUI\obj\Debug\VS2010.WebForm.JQueryEasyUI.dll
+F:\快盘\Demo\VS2010.WebForm.JQueryEasyUI\VS2010.WebForm.JQueryEasyUI\obj\Debug\VS2010.WebForm.JQueryEasyUI.pdb
+F:\快盘\Demo\VS2010.WebForm.JQueryEasyUI\VS2010.WebForm.JQueryEasyUI\bin\Newtonsoft.Json.dll
+F:\快盘\Demo\VS2010.WebForm.JQueryEasyUI\VS2010.WebForm.JQueryEasyUI\bin\Newtonsoft.Json.pdb
+F:\快盘\Demo\VS2010.WebForm.JQueryEasyUI\VS2010.WebForm.JQueryEasyUI\bin\Newtonsoft.Json.xml
+E:\快盘\Demo\VS2010.WebForm.JQueryEasyUI\VS2010.WebForm.JQueryEasyUI\bin\VS2010.WebForm.JQueryEasyUI.dll
+E:\快盘\Demo\VS2010.WebForm.JQueryEasyUI\VS2010.WebForm.JQueryEasyUI\bin\VS2010.WebForm.JQueryEasyUI.pdb
+E:\快盘\Demo\VS2010.WebForm.JQueryEasyUI\VS2010.WebForm.JQueryEasyUI\bin\Newtonsoft.Json.pdb
+E:\快盘\Demo\VS2010.WebForm.JQueryEasyUI\VS2010.WebForm.JQueryEasyUI\bin\Newtonsoft.Json.xml
+E:\快盘\Demo\VS2010.WebForm.JQueryEasyUI\VS2010.WebForm.JQueryEasyUI\obj\Debug\ResolveAssemblyReference.cache
+E:\快盘\Demo\VS2010.WebForm.JQueryEasyUI\VS2010.WebForm.JQueryEasyUI\obj\Debug\VS2010.WebForm.JQueryEasyUI.dll
+E:\快盘\Demo\VS2010.WebForm.JQueryEasyUI\VS2010.WebForm.JQueryEasyUI\obj\Debug\VS2010.WebForm.JQueryEasyUI.pdb

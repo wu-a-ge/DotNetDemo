@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc12="http://www.w3.org/2003/05/soap-encoding" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope" xmlns:tns="http://wsdl.search.module.cloud.vip.com" xmlns:soapenc11="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap11="http://schemas.xmlsoap.org/soap/envelope/" targetNamespace="http://wsdl.search.module.cloud.vip.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://wsdl.search.module.cloud.vip.com">
+      <xsd:element name="vipMultiObjectSearch">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="vipMultiObjectSearchResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="vipCluser">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in3" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in4" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in5" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in6" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in7" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in8" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in9" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="vipCluserResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:complexType name="ArrayOfString">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="customDataRetrieveOperation">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="tns:ArrayOfString" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" nillable="true" type="tns:ArrayOfString" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="customDataRetrieveOperationResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="customRegionChangeNotice">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" type="xsd:boolean" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="customRegionChangeNoticeResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="vipSearchByRealtion">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in3" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in4" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in5" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in6" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in7" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in8" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in9" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in10" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in11" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="vipSearchByRealtionResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="customDataUpadteOpreation">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in3" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="customDataUpadteOpreationResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="customDataDeleteOperation">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" nillable="true" type="tns:ArrayOfString" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="customDataDeleteOperationResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getTokenStream">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getTokenStreamResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="hasKey">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="hasKeyResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getVisCache">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getVisCacheResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="vipGetInfoById">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in3" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in4" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="vipGetInfoByIdResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getSuggest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getSuggestResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="deleteVisCache">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="deleteVisCacheResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="reCreateTable">
+        <xsd:complexType />
+      </xsd:element>
+      <xsd:element name="reCreateTableResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="userDataChangedNotified">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="userDataChangedNotifiedResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="vipGetPartInfoById">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in3" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in4" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in5" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in6" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in7" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="vipGetPartInfoByIdResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="vipSearchByObject">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" type="xsd:boolean" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in3" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in4" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in5" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in6" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in7" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in8" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in9" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in10" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in11" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in12" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in13" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in14" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="vipSearchByObjectResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="changeSolrIndexRootPath">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="changeSolrIndexRootPathResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="vipSearchByResults">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in3" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in4" type="xsd:boolean" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in5" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in6" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in7" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in8" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in9" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in10" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in11" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in12" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in13" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in14" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in15" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in16" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in17" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in18" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="vipSearchByResultsResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="setVisCache">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="setVisCacheResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="customDataDeleteOperationResponse">
+    <wsdl:part name="parameters" element="tns:customDataDeleteOperationResponse" />
+  </wsdl:message>
+  <wsdl:message name="hasKeyRequest">
+    <wsdl:part name="parameters" element="tns:hasKey" />
+  </wsdl:message>
+  <wsdl:message name="customDataUpadteOpreationResponse">
+    <wsdl:part name="parameters" element="tns:customDataUpadteOpreationResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteVisCacheRequest">
+    <wsdl:part name="parameters" element="tns:deleteVisCache" />
+  </wsdl:message>
+  <wsdl:message name="vipSearchByObjectResponse">
+    <wsdl:part name="parameters" element="tns:vipSearchByObjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="vipSearchByResultsResponse">
+    <wsdl:part name="parameters" element="tns:vipSearchByResultsResponse" />
+  </wsdl:message>
+  <wsdl:message name="customDataRetrieveOperationRequest">
+    <wsdl:part name="parameters" element="tns:customDataRetrieveOperation" />
+  </wsdl:message>
+  <wsdl:message name="userDataChangedNotifiedResponse">
+    <wsdl:part name="parameters" element="tns:userDataChangedNotifiedResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteVisCacheResponse">
+    <wsdl:part name="parameters" element="tns:deleteVisCacheResponse" />
+  </wsdl:message>
+  <wsdl:message name="hasKeyResponse">
+    <wsdl:part name="parameters" element="tns:hasKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="userDataChangedNotifiedRequest">
+    <wsdl:part name="parameters" element="tns:userDataChangedNotified" />
+  </wsdl:message>
+  <wsdl:message name="vipSearchByResultsRequest">
+    <wsdl:part name="parameters" element="tns:vipSearchByResults" />
+  </wsdl:message>
+  <wsdl:message name="getTokenStreamRequest">
+    <wsdl:part name="parameters" element="tns:getTokenStream" />
+  </wsdl:message>
+  <wsdl:message name="changeSolrIndexRootPathRequest">
+    <wsdl:part name="parameters" element="tns:changeSolrIndexRootPath" />
+  </wsdl:message>
+  <wsdl:message name="vipCluserRequest">
+    <wsdl:part name="parameters" element="tns:vipCluser" />
+  </wsdl:message>
+  <wsdl:message name="getVisCacheResponse">
+    <wsdl:part name="parameters" element="tns:getVisCacheResponse" />
+  </wsdl:message>
+  <wsdl:message name="setVisCacheRequest">
+    <wsdl:part name="parameters" element="tns:setVisCache" />
+  </wsdl:message>
+  <wsdl:message name="vipGetInfoByIdRequest">
+    <wsdl:part name="parameters" element="tns:vipGetInfoById" />
+  </wsdl:message>
+  <wsdl:message name="getTokenStreamResponse">
+    <wsdl:part name="parameters" element="tns:getTokenStreamResponse" />
+  </wsdl:message>
+  <wsdl:message name="reCreateTableRequest">
+    <wsdl:part name="parameters" element="tns:reCreateTable" />
+  </wsdl:message>
+  <wsdl:message name="vipCluserResponse">
+    <wsdl:part name="parameters" element="tns:vipCluserResponse" />
+  </wsdl:message>
+  <wsdl:message name="customDataRetrieveOperationResponse">
+    <wsdl:part name="parameters" element="tns:customDataRetrieveOperationResponse" />
+  </wsdl:message>
+  <wsdl:message name="customDataDeleteOperationRequest">
+    <wsdl:part name="parameters" element="tns:customDataDeleteOperation" />
+  </wsdl:message>
+  <wsdl:message name="customRegionChangeNoticeRequest">
+    <wsdl:part name="parameters" element="tns:customRegionChangeNotice" />
+  </wsdl:message>
+  <wsdl:message name="vipSearchByObjectRequest">
+    <wsdl:part name="parameters" element="tns:vipSearchByObject" />
+  </wsdl:message>
+  <wsdl:message name="vipMultiObjectSearchRequest">
+    <wsdl:part name="parameters" element="tns:vipMultiObjectSearch" />
+  </wsdl:message>
+  <wsdl:message name="vipSearchByRealtionRequest">
+    <wsdl:part name="parameters" element="tns:vipSearchByRealtion" />
+  </wsdl:message>
+  <wsdl:message name="customRegionChangeNoticeResponse">
+    <wsdl:part name="parameters" element="tns:customRegionChangeNoticeResponse" />
+  </wsdl:message>
+  <wsdl:message name="getSuggestResponse">
+    <wsdl:part name="parameters" element="tns:getSuggestResponse" />
+  </wsdl:message>
+  <wsdl:message name="changeSolrIndexRootPathResponse">
+    <wsdl:part name="parameters" element="tns:changeSolrIndexRootPathResponse" />
+  </wsdl:message>
+  <wsdl:message name="vipGetPartInfoByIdRequest">
+    <wsdl:part name="parameters" element="tns:vipGetPartInfoById" />
+  </wsdl:message>
+  <wsdl:message name="getSuggestRequest">
+    <wsdl:part name="parameters" element="tns:getSuggest" />
+  </wsdl:message>
+  <wsdl:message name="vipGetInfoByIdResponse">
+    <wsdl:part name="parameters" element="tns:vipGetInfoByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="customDataUpadteOpreationRequest">
+    <wsdl:part name="parameters" element="tns:customDataUpadteOpreation" />
+  </wsdl:message>
+  <wsdl:message name="reCreateTableResponse">
+    <wsdl:part name="parameters" element="tns:reCreateTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="vipMultiObjectSearchResponse">
+    <wsdl:part name="parameters" element="tns:vipMultiObjectSearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="getVisCacheRequest">
+    <wsdl:part name="parameters" element="tns:getVisCache" />
+  </wsdl:message>
+  <wsdl:message name="setVisCacheResponse">
+    <wsdl:part name="parameters" element="tns:setVisCacheResponse" />
+  </wsdl:message>
+  <wsdl:message name="vipGetPartInfoByIdResponse">
+    <wsdl:part name="parameters" element="tns:vipGetPartInfoByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="vipSearchByRealtionResponse">
+    <wsdl:part name="parameters" element="tns:vipSearchByRealtionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WsdlSearchablePortType">
+    <wsdl:operation name="vipMultiObjectSearch">
+      <wsdl:input name="vipMultiObjectSearchRequest" message="tns:vipMultiObjectSearchRequest" />
+      <wsdl:output name="vipMultiObjectSearchResponse" message="tns:vipMultiObjectSearchResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="vipCluser">
+      <wsdl:input name="vipCluserRequest" message="tns:vipCluserRequest" />
+      <wsdl:output name="vipCluserResponse" message="tns:vipCluserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="customDataRetrieveOperation">
+      <wsdl:input name="customDataRetrieveOperationRequest" message="tns:customDataRetrieveOperationRequest" />
+      <wsdl:output name="customDataRetrieveOperationResponse" message="tns:customDataRetrieveOperationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="customRegionChangeNotice">
+      <wsdl:input name="customRegionChangeNoticeRequest" message="tns:customRegionChangeNoticeRequest" />
+      <wsdl:output name="customRegionChangeNoticeResponse" message="tns:customRegionChangeNoticeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="vipSearchByRealtion">
+      <wsdl:input name="vipSearchByRealtionRequest" message="tns:vipSearchByRealtionRequest" />
+      <wsdl:output name="vipSearchByRealtionResponse" message="tns:vipSearchByRealtionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="customDataUpadteOpreation">
+      <wsdl:input name="customDataUpadteOpreationRequest" message="tns:customDataUpadteOpreationRequest" />
+      <wsdl:output name="customDataUpadteOpreationResponse" message="tns:customDataUpadteOpreationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="customDataDeleteOperation">
+      <wsdl:input name="customDataDeleteOperationRequest" message="tns:customDataDeleteOperationRequest" />
+      <wsdl:output name="customDataDeleteOperationResponse" message="tns:customDataDeleteOperationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getTokenStream">
+      <wsdl:input name="getTokenStreamRequest" message="tns:getTokenStreamRequest" />
+      <wsdl:output name="getTokenStreamResponse" message="tns:getTokenStreamResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="hasKey">
+      <wsdl:input name="hasKeyRequest" message="tns:hasKeyRequest" />
+      <wsdl:output name="hasKeyResponse" message="tns:hasKeyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getVisCache">
+      <wsdl:input name="getVisCacheRequest" message="tns:getVisCacheRequest" />
+      <wsdl:output name="getVisCacheResponse" message="tns:getVisCacheResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="vipGetInfoById">
+      <wsdl:input name="vipGetInfoByIdRequest" message="tns:vipGetInfoByIdRequest" />
+      <wsdl:output name="vipGetInfoByIdResponse" message="tns:vipGetInfoByIdResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getSuggest">
+      <wsdl:input name="getSuggestRequest" message="tns:getSuggestRequest" />
+      <wsdl:output name="getSuggestResponse" message="tns:getSuggestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteVisCache">
+      <wsdl:input name="deleteVisCacheRequest" message="tns:deleteVisCacheRequest" />
+      <wsdl:output name="deleteVisCacheResponse" message="tns:deleteVisCacheResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="reCreateTable">
+      <wsdl:input name="reCreateTableRequest" message="tns:reCreateTableRequest" />
+      <wsdl:output name="reCreateTableResponse" message="tns:reCreateTableResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="userDataChangedNotified">
+      <wsdl:input name="userDataChangedNotifiedRequest" message="tns:userDataChangedNotifiedRequest" />
+      <wsdl:output name="userDataChangedNotifiedResponse" message="tns:userDataChangedNotifiedResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="vipGetPartInfoById">
+      <wsdl:input name="vipGetPartInfoByIdRequest" message="tns:vipGetPartInfoByIdRequest" />
+      <wsdl:output name="vipGetPartInfoByIdResponse" message="tns:vipGetPartInfoByIdResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="vipSearchByObject">
+      <wsdl:input name="vipSearchByObjectRequest" message="tns:vipSearchByObjectRequest" />
+      <wsdl:output name="vipSearchByObjectResponse" message="tns:vipSearchByObjectResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="changeSolrIndexRootPath">
+      <wsdl:input name="changeSolrIndexRootPathRequest" message="tns:changeSolrIndexRootPathRequest" />
+      <wsdl:output name="changeSolrIndexRootPathResponse" message="tns:changeSolrIndexRootPathResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="vipSearchByResults">
+      <wsdl:input name="vipSearchByResultsRequest" message="tns:vipSearchByResultsRequest" />
+      <wsdl:output name="vipSearchByResultsResponse" message="tns:vipSearchByResultsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="setVisCache">
+      <wsdl:input name="setVisCacheRequest" message="tns:setVisCacheRequest" />
+      <wsdl:output name="setVisCacheResponse" message="tns:setVisCacheResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WsdlSearchableHttpBinding" type="tns:WsdlSearchablePortType">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="vipMultiObjectSearch">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="vipMultiObjectSearchRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="vipMultiObjectSearchResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vipCluser">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="vipCluserRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="vipCluserResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="customDataRetrieveOperation">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="customDataRetrieveOperationRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="customDataRetrieveOperationResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="customRegionChangeNotice">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="customRegionChangeNoticeRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="customRegionChangeNoticeResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vipSearchByRealtion">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="vipSearchByRealtionRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="vipSearchByRealtionResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="customDataUpadteOpreation">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="customDataUpadteOpreationRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="customDataUpadteOpreationResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="customDataDeleteOperation">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="customDataDeleteOperationRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="customDataDeleteOperationResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTokenStream">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getTokenStreamRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getTokenStreamResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="hasKey">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="hasKeyRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="hasKeyResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getVisCache">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getVisCacheRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getVisCacheResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vipGetInfoById">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="vipGetInfoByIdRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="vipGetInfoByIdResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSuggest">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getSuggestRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getSuggestResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteVisCache">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="deleteVisCacheRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="deleteVisCacheResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="reCreateTable">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="reCreateTableRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="reCreateTableResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="userDataChangedNotified">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="userDataChangedNotifiedRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="userDataChangedNotifiedResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vipGetPartInfoById">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="vipGetPartInfoByIdRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="vipGetPartInfoByIdResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vipSearchByObject">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="vipSearchByObjectRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="vipSearchByObjectResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="changeSolrIndexRootPath">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="changeSolrIndexRootPathRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="changeSolrIndexRootPathResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vipSearchByResults">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="vipSearchByResultsRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="vipSearchByResultsResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setVisCache">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="setVisCacheRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="setVisCacheResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WsdlSearchable">
+    <wsdl:port name="WsdlSearchableHttpPort" binding="tns:WsdlSearchableHttpBinding">
+      <wsdlsoap:address location="http://192.168.30.89:8090/vipCloud/service/WsdlSearchable" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

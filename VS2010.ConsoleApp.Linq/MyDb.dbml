@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="MyDb" Class="MyDbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=MyDb;Integrated Security=True" SettingsObjectName="VS2010.ConsoleApp.Linq.Properties.Settings" SettingsPropertyName="MyDbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.t1" Member="t1">
+    <Type Name="t1">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="version" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+      <Column Name="name" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="product" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.children" Member="children">
+    <Type Name="children">
+      <Column Name="OrderDetailsId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProdcutName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OrderId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="father_children" Member="father" ThisKey="OrderId" OtherKey="OrderId" Type="father" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.father" Member="father">
+    <Type Name="father">
+      <Column Name="OrderId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProductName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="father_children" Member="children" ThisKey="OrderId" OtherKey="OrderId" Type="children" />
+    </Type>
+  </Table>
+</Database>

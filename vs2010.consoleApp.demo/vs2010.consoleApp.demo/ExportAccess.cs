@@ -19,18 +19,29 @@ namespace vs2010.consoleApp.demo
         static Dictionary<String, ISet<String>> typeSqlParams = new Dictionary<string, ISet<String>>();
         static Dictionary<String, String> typeInsertSql = new Dictionary<string, string>();
         static Dictionary<String, String> typeSelectSql = new Dictionary<string, string>();
+        private static bool flag = false;
         //static int threshold = 100000;
         private static void InitFields()
         {
-            ISet<String> qkFields = new HashSet<String>();
-            qkFields.UnionWith("lngid,titletype,mediaid,media_c,media_e,years,vol,num,volumn,specialnum,subjectnum,gch,title_c,title_e,keyword_c,keyword_e,remark_c,remark_e,class,beginpage,endpage,jumppage,pagecount,showwriter,showorgan,imburse,author_e,medias_qk,refercount,referids,intpdf,isqwkz,intgby,isinclude,range,fstorgan,fstwriter,muinfo,language,issn,type".Split(','));
-            typeFields.Add("1", qkFields);
+            if (!flag)
+            {
+
+                ISet<string> mediaObject = new HashSet<string>();
+                mediaObject.UnionWith("_id,media".Split(','));
+                ISet<String> qkFields = new HashSet<String>();
+                qkFields.UnionWith(
+                    "lngid,titletype,mediaid,media_c,media_e,years,vol,num,volumn,specialnum,subjectnum,gch,title_c,title_e,keyword_c,keyword_e,remark_c,remark_e,class,beginpage,endpage,jumppage,pagecount,showwriter,showorgan,imburse,author_e,medias_qk,refercount,referids,intpdf,isqwkz,intgby,isinclude,range,fstorgan,fstwriter,muinfo,language,issn,type"
+                        .Split(','));
+                //typeFields.Add("1", qkFields);
+                typeFields.Add("media", mediaObject);
+                flag = true;
+            }
         }
 
         public static void Export(String dataPath,int startFileNum)
         {
             InitFields();
-
+            String key = "media";
             int fileCounts = startFileNum;
             //mdb
             String connectionString = String.Format(JetProvider, fileCounts + "_" + Table_name);
@@ -45,14 +56,19 @@ namespace vs2010.consoleApp.demo
             {
                 JObject obj = JObject.Parse(line);
                 ACEParameterHelper parameterHelper = new ACEParameterHelper();
-                String type = obj["type"].ToString();
+                //String type = obj["type"].ToString();
                 int i = 0;
-                foreach (String paramField in typeSqlParams[type])
+
+                foreach (var type in typeFields)
                 {
-                    parameterHelper.AddParameter<String>(paramField, obj[paramField.Substring(1)].ToString());
-                    i++;
+                    foreach (var field in type.Value)
+                    {
+                        parameterHelper.AddParameter<String>(field, obj[field].ToString());
+                         i++;
+                    }
+
                 }
-                AccessHelper.ExecuteNonQuery(conn, typeInsertSql[type], parameterHelper.GetParameters());
+                AccessHelper.ExecuteNonQuery(conn, typeInsertSql[key], parameterHelper.GetParameters());
                 //if (counts >= threshold)
                 //{
 
@@ -67,6 +83,7 @@ namespace vs2010.consoleApp.demo
                 counts++;
                 line = reader.ReadLine();
             }
+            reader.Close();
             if (conn != null)
                 conn.Close();
         }

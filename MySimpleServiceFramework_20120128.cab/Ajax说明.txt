@@ -1,0 +1,30 @@
+﻿
+
+关于本框架支持Ajax的使用说明
+=========================================
+1. 本框架可以支持来自客户端的浏览以Ajax的方式调用。
+   由FormSerializerProvider负责为方法解析传入参数，要求：方法有且仅有一个传入参数。
+
+2. AjaxServiceHandler是专为Ajax设计的一个处理器。
+   可以支持  /AjaxYourClass.method.aa   or    /AjaxYourClass/method.bb 这样的URL
+   注意：在使用前请在web.config中配置，并指定相应的扩展名。
+
+
+
+
+
+
+补充：
+    本框架起初并非专为Ajax设计，而是为了开发一个简单的服务框架。
+    为了设计简单，调用方法所需的数据，以序列化和反序列化地方式表示，
+    因此，参数个数要求只能是一个。
+    
+    如果在实现Ajax时，不想为了二三个简单的数据类型定义一个类型，
+    那么，可以考虑我的另一个WEB框架：
+    http://www.cnblogs.com/fish-li/archive/2011/03/12/1982434.html
+    http://www.cnblogs.com/fish-li/archive/2011/05/02/2034354.html    
+	http://www.cnblogs.com/fish-li/archive/2011/05/02/2034010.html
+	以上三个页面都是介绍我的另一个WEB框架，此框架包含完整的API文档，用户手册，以及三个可运行的示例网站。
+
+
+

@@ -22,18 +22,5 @@ namespace vs2010.consoleApp.demo.Properties {
                 return defaultInstance;
             }
         }
-<<<<<<< HEAD
-=======
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://192.168.30.47:9090/userManager/vipCloud/webService/ReaderInfo")]
-        public string vs2010_consoleApp_demo_localhost_HelloWorld {
-            get {
-                return ((string)(this["vs2010_consoleApp_demo_localhost_HelloWorld"]));
-            }
-        }
->>>>>>> 3fca3cf06f3d8db56734b14b275c3e3f35fbad58
     }
 }

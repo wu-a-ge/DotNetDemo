@@ -1,0 +1,5 @@
+﻿1. 用VS2008加载TestRoutePerformance.sln
+2. 启动网站 MvcApplication1
+3. 启动网站 WebApplication1
+4. 启动程序 ConsoleApplication1
+5. 查看结果

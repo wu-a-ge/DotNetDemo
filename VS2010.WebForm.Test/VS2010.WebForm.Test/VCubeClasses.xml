@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <level1 id="8" name="哲学宗教">
+    <level2 id="269" name="哲学理论" />
+    <level2 id="270" name="马克思主义哲学" />
+    <level2 id="271" name="世界哲学" />
+    <level2 id="272" name="中国哲学" />
+    <level2 id="273" name="外国哲学" />
+    <level2 id="274" name="思维科学" />
+    <level2 id="275" name="逻辑学" />
+    <level2 id="276" name="伦理学" />
+    <level2 id="277" name="美学" />
+    <level2 id="278" name="宗教学" />
+    <level2 id="279" name="心理学" />
+    <level2 id="280" name="基础心理学" />
+    <level2 id="281" name="发展与教育心理学" />
+    <level2 id="282" name="应用心理学" />
+  </level1>
+  <level1 id="258" name="社会学">
+    <level2 id="283" name="统计学" />
+    <level2 id="284" name="人口学" />
+    <level2 id="285" name="民族学" />
+  </level1>
+  <level1 id="259" name="政治法律">
+    <level2 id="286" name="政治学" />
+    <level2 id="287" name="国际共产主义运动" />
+    <level2 id="288" name="中共党史" />
+    <level2 id="289" name="国际政治" />
+    <level2 id="290" name="外交学" />
+    <level2 id="291" name="国际关系" />
+    <level2 id="292" name="中外政治制度" />
+    <level2 id="293" name="法学" />
+    <level2 id="294" name="法学理论" />
+    <level2 id="295" name="宪法学与行政法学" />
+    <level2 id="296" name="刑法学" />
+    <level2 id="297" name="民商法学" />
+    <level2 id="298" name="诉讼法学" />
+    <level2 id="299" name="经济法学" />
+    <level2 id="300" name="环境与资源保护法学" />
+    <level2 id="301" name="国际法学" />
+    <level2 id="302" name="军事法学" />
+  </level1>
+  <level1 id="260" name="军事">
+    <level2 id="303" name="军事理论" />
+    <level2 id="304" name="战略学" />
+    <level2 id="305" name="战役学" />
+    <level2 id="306" name="战术学" />
+    <level2 id="307" name="军队指挥学" />
+    <level2 id="308" name="军事通信学" />
+    <level2 id="309" name="军事情报学" />
+    <level2 id="310" name="军事装备学" />
+    <level2 id="311" name="军事工程" />
+    <level2 id="312" name="军事地形" />
+  </level1>
+  <level1 id="2" name="经济管理">
+    <level2 id="313" name="管理学" />
+    <level2 id="314" name="人力资源管理" />
+    <level2 id="315" name="政治经济学" />
+    <level2 id="316" name="世界经济" />
+    <level2 id="317" name="国民经济" />
+    <level2 id="318" name="会计学" />
+    <level2 id="319" name="企业管理" />
+    <level2 id="320" name="产业经济" />
+    <level2 id="321" name="市场营销" />
+    <level2 id="322" name="广告" />
+    <level2 id="323" name="旅游管理" />
+    <level2 id="324" name="国际贸易" />
+    <level2 id="325" name="财政学" />
+    <level2 id="326" name="金融学" />
+    <level2 id="327" name="保险" />
+    <level2 id="328" name="劳动经济" />
+  </level1>
+  <level1 id="261" name="文化科学">
+    <level2 id="329" name="传播学" />
+    <level2 id="330" name="新闻学" />
+    <level2 id="331" name="图书馆学" />
+    <level2 id="332" name="档案学" />
+    <level2 id="333" name="情报学" />
+    <level2 id="334" name="教育学" />
+    <level2 id="335" name="教育技术学" />
+    <level2 id="336" name="教育学原理" />
+    <level2 id="337" name="课程与教学论" />
+    <level2 id="338" name="学前教育学" />
+    <level2 id="339" name="高等教育学" />
+    <level2 id="340" name="成人教育学" />
+    <level2 id="341" name="职业技术教育学" />
+    <level2 id="342" name="特殊教育学" />
+    <level2 id="343" name="体育学" />
+    <level2 id="344" name="运动人体科学" />
+    <level2 id="345" name="体育训练" />
+    <level2 id="346" name="民族体育" />
+  </level1>
+  <level1 id="262" name="语言文字">
+    <level2 id="347" name="语言学" />
+    <level2 id="348" name="汉语" />
+    <level2 id="349" name="少数民族语言" />
+    <level2 id="350" name="英语" />
+    <level2 id="351" name="法语" />
+    <level2 id="352" name="德语" />
+    <level2 id="353" name="西班牙语" />
+    <level2 id="354" name="俄语" />
+    <level2 id="355" name="日语" />
+    <level2 id="356" name="阿拉伯语" />
+    <level2 id="357" name="世界语" />
+  </level1>
+  <level1 id="263" name="文学">
+    <level2 id="358" name="文学理论" />
+    <level2 id="359" name="世界文学" />
+    <level2 id="360" name="中国文学" />
+    <level2 id="361" name="其他各国文学" />
+  </level1>
+  <level1 id="264" name="艺术">
+    <level2 id="362" name="艺术理论" />
+    <level2 id="363" name="美术" />
+    <level2 id="364" name="摄影艺术" />
+    <level2 id="365" name="艺术设计" />
+    <level2 id="366" name="音乐" />
+    <level2 id="367" name="舞蹈" />
+    <level2 id="368" name="戏剧戏曲" />
+    <level2 id="369" name="电影电视艺术" />
+  </level1>
+  <level1 id="265" name="历史地理">
+    <level2 id="370" name="历史学" />
+    <level2 id="371" name="中国史" />
+    <level2 id="372" name="世界史" />
+    <level2 id="373" name="考古学及博物馆学" />
+    <level2 id="374" name="民俗学" />
+    <level2 id="375" name="人文地理学" />
+  </level1>
+  <level1 id="266" name="自然科学总论">
+    <level2 id="376" name="系统科学" />
+    <level2 id="377" name="科学技术哲学" />
+  </level1>
+  <level1 id="267" name="理学">
+    <level2 id="378" name="数学" />
+    <level2 id="379" name="基础数学" />
+    <level2 id="380" name="计算数学" />
+    <level2 id="381" name="概率论与数理统计" />
+    <level2 id="382" name="应用数学" />
+    <level2 id="383" name="运筹学与控制论" />
+    <level2 id="384" name="力学" />
+    <level2 id="385" name="一般力学与力学基础" />
+    <level2 id="386" name="固体力学" />
+    <level2 id="387" name="流体力学" />
+    <level2 id="388" name="工程力学" />
+    <level2 id="389" name="物理" />
+    <level2 id="390" name="理论物理" />
+    <level2 id="391" name="声学" />
+    <level2 id="392" name="光学" />
+    <level2 id="393" name="电磁学" />
+    <level2 id="394" name="无线电物理" />
+    <level2 id="395" name="电子物理学" />
+    <level2 id="396" name="凝聚态物理" />
+    <level2 id="397" name="半导体物理" />
+    <level2 id="398" name="固体物理" />
+    <level2 id="399" name="低温物理" />
+    <level2 id="400" name="高压高温物理" />
+    <level2 id="401" name="等离子体物理" />
+    <level2 id="402" name="热学与物质分子运动论" />
+    <level2 id="403" name="原子与分子物理" />
+    <level2 id="404" name="粒子物理与原子核物理" />
+    <level2 id="405" name="应用物理" />
+    <level2 id="406" name="化学" />
+    <level2 id="407" name="无机化学" />
+    <level2 id="408" name="有机化学" />
+    <level2 id="409" name="高分子化学" />
+    <level2 id="410" name="物理化学" />
+    <level2 id="411" name="分析化学" />
+    <level2 id="412" name="晶体学" />
+  </level1>
+  <level1 id="10" name="天文地球">
+    <level2 id="115" name="天文学" />
+    <level2 id="413" name="天体物理" />
+    <level2 id="414" name="天体测量" />
+    <level2 id="415" name="天体力学" />
+    <level2 id="116" name="测绘科学与技术" />
+    <level2 id="416" name="大地测量学与测量工程" />
+    <level2 id="417" name="摄影测量与遥感" />
+    <level2 id="418" name="地图制图学与地理信息工程" />
+    <level2 id="117" name="地球物理学" />
+    <level2 id="419" name="固体地球物理学" />
+    <level2 id="420" name="地震学" />
+    <level2 id="421" name="水文科学" />
+    <level2 id="422" name="空间物理学" />
+    <level2 id="118" name="大气科学及气象学" />
+    <level2 id="423" name="大气物理学与大气环境" />
+    <level2 id="424" name="地质学" />
+    <level2 id="425" name="矿物学" />
+    <level2 id="426" name="岩石学" />
+    <level2 id="427" name="矿床学" />
+    <level2 id="428" name="地质矿产勘探" />
+    <level2 id="429" name="工程地质学" />
+    <level2 id="430" name="地球化学" />
+    <level2 id="431" name="古生物学与地层学" />
+    <level2 id="432" name="构造地质学" />
+    <level2 id="433" name="第四纪地质学" />
+    <level2 id="120" name="海洋科学" />
+    <level2 id="434" name="物理海洋学" />
+    <level2 id="435" name="海洋化学" />
+    <level2 id="436" name="海洋生物学" />
+    <level2 id="437" name="海洋地质" />
+    <level2 id="121" name="自然地理学" />
+  </level1>
+  <level1 id="9" name="生物学">
+    <level2 id="101" name="普通生物学" />
+    <level2 id="438" name="生态学" />
+    <level2 id="439" name="水生生物学" />
+    <level2 id="440" name="神经生物学" />
+    <level2 id="102" name="细胞生物学" />
+    <level2 id="103" name="遗传学" />
+    <level2 id="104" name="生理学" />
+    <level2 id="105" name="生物化学" />
+    <level2 id="106" name="生物物理学" />
+    <level2 id="107" name="分子生物学" />
+    <level2 id="112" name="生物工程" />
+    <level2 id="113" name="古生物学" />
+    <level2 id="111" name="微生物学" />
+    <level2 id="108" name="植物学" />
+    <level2 id="109" name="动物学" />
+    <level2 id="110" name="昆虫学" />
+    <level2 id="114" name="人类学" />
+  </level1>
+  <level1 id="30" name="医药卫生">
+    <level2 id="441" name="公共卫生与预防医学" />
+    <level2 id="442" name="卫生毒理学" />
+    <level2 id="443" name="环境卫生学" />
+    <level2 id="444" name="劳动卫生" />
+    <level2 id="445" name="军事预防医学" />
+    <level2 id="446" name="营养与食品卫生学" />
+    <level2 id="447" name="妇幼卫生保健" />
+    <level2 id="448" name="流行病学" />
+    <level2 id="449" name="卫生事业管理" />
+    <level2 id="450" name="卫生统计学" />
+    <level2 id="451" name="中医学" />
+    <level2 id="452" name="中医基础理论" />
+    <level2 id="453" name="中医临床基础" />
+    <level2 id="454" name="中医诊断学" />
+    <level2 id="455" name="针灸推拿学" />
+    <level2 id="456" name="中医内科学" />
+    <level2 id="457" name="中医外科学" />
+    <level2 id="458" name="中医妇科学" />
+    <level2 id="459" name="中医儿科学" />
+    <level2 id="460" name="中医肿瘤科" />
+    <level2 id="461" name="中医骨伤科学" />
+    <level2 id="462" name="中医皮科" />
+    <level2 id="463" name="中医五官科学" />
+    <level2 id="464" name="中药学" />
+    <level2 id="465" name="方剂学" />
+    <level2 id="466" name="民族医学" />
+    <level2 id="467" name="中西医结合" />
+    <level2 id="468" name="基础医学" />
+    <level2 id="469" name="生物医学工程" />
+    <level2 id="470" name="人体解剖和组织胚胎学" />
+    <level2 id="471" name="人体生理学" />
+    <level2 id="472" name="病理学" />
+    <level2 id="473" name="病原生物学" />
+    <level2 id="474" name="医学寄生虫学" />
+    <level2 id="475" name="免疫学" />
+    <level2 id="476" name="医学遗传学" />
+    <level2 id="477" name="医学心理学" />
+    <level2 id="478" name="法医学" />
+    <level2 id="479" name="放射医学" />
+    <level2 id="480" name="航空、航天与航海医学" />
+    <level2 id="481" name="临床医学" />
+    <level2 id="482" name="诊断学" />
+    <level2 id="483" name="影像医学与核医学" />
+    <level2 id="484" name="治疗学" />
+    <level2 id="485" name="运动医学" />
+    <level2 id="486" name="护理学" />
+    <level2 id="487" name="康复医学" />
+    <level2 id="488" name="急诊医学" />
+    <level2 id="489" name="内科学" />
+    <level2 id="490" name="心血管疾病" />
+    <level2 id="491" name="血液循环系统疾病" />
+    <level2 id="492" name="呼吸系统" />
+    <level2 id="493" name="消化系统" />
+    <level2 id="494" name="内分泌" />
+    <level2 id="495" name="老年医学" />
+    <level2 id="496" name="外科学" />
+    <level2 id="497" name="麻醉学" />
+    <level2 id="498" name="整形外科" />
+    <level2 id="499" name="骨科学" />
+    <level2 id="500" name="泌尿科学" />
+    <level2 id="501" name="妇产科学" />
+    <level2 id="502" name="儿科" />
+    <level2 id="503" name="肿瘤" />
+    <level2 id="504" name="神经病学与精神病学" />
+    <level2 id="505" name="皮肤病学与性病学" />
+    <level2 id="506" name="耳鼻咽喉科" />
+    <level2 id="507" name="眼科" />
+    <level2 id="508" name="口腔医学" />
+    <level2 id="509" name="药学" />
+    <level2 id="510" name="药物化学" />
+    <level2 id="511" name="药物分析学" />
+    <level2 id="512" name="生药学" />
+    <level2 id="513" name="药剂学" />
+    <level2 id="514" name="药理学" />
+    <level2 id="515" name="药品" />
+    <level2 id="516" name="毒理学" />
+    <level2 id="517" name="微生物与生化药学" />
+  </level1>
+  <level1 id="35" name="农业科学">
+    <level2 id="518" name="农业基础科学" />
+    <level2 id="519" name="肥料学" />
+    <level2 id="520" name="土壤学" />
+    <level2 id="521" name="农业气象学" />
+    <level2 id="522" name="农业工程" />
+    <level2 id="523" name="农业机械化工程" />
+    <level2 id="524" name="农业电气化与自动化" />
+    <level2 id="525" name="农业水土工程" />
+    <level2 id="526" name="农艺学" />
+    <level2 id="527" name="作物栽培与耕作技术" />
+    <level2 id="528" name="作物遗传育种" />
+    <level2 id="529" name="农产品加工" />
+    <level2 id="530" name="植物保护" />
+    <level2 id="531" name="植物病理学" />
+    <level2 id="532" name="农业昆虫与害虫防治" />
+    <level2 id="533" name="农药学" />
+    <level2 id="534" name="作物学" />
+    <level2 id="535" name="茶叶生产加工" />
+    <level2 id="536" name="中草药栽培" />
+    <level2 id="537" name="烟草工业" />
+    <level2 id="538" name="园艺学" />
+    <level2 id="539" name="果树学" />
+    <level2 id="540" name="蔬菜学" />
+    <level2 id="541" name="观赏园艺" />
+    <level2 id="542" name="林学" />
+    <level2 id="543" name="林木遗传育种" />
+    <level2 id="544" name="森林经理学" />
+    <level2 id="545" name="森林保护学" />
+    <level2 id="546" name="森林工程" />
+    <level2 id="547" name="木材科学与技术" />
+    <level2 id="548" name="畜牧兽医" />
+    <level2 id="549" name="畜牧学" />
+    <level2 id="550" name="饲料科学" />
+    <level2 id="551" name="草业科学" />
+    <level2 id="552" name="兽医学" />
+    <level2 id="553" name="基础兽医学" />
+    <level2 id="554" name="预防兽医学" />
+    <level2 id="555" name="临床兽医学" />
+    <level2 id="556" name="野生动物驯养" />
+    <level2 id="557" name="特种经济动物饲养" />
+    <level2 id="558" name="水产科学" />
+    <level2 id="559" name="渔业资源" />
+    <level2 id="560" name="水产养殖" />
+    <level2 id="561" name="捕捞与储运" />
+  </level1>
+  <level1 id="257" name="一般工业技术">
+    <level2 id="562" name="工程设计测绘" />
+    <level2 id="563" name="材料科学与工程" />
+    <level2 id="564" name="工业设计" />
+    <level2 id="565" name="包装工程" />
+    <level2 id="566" name="制冷工程" />
+    <level2 id="567" name="真空技术" />
+    <level2 id="568" name="摄影技术" />
+    <level2 id="569" name="计量学" />
+  </level1>
+  <level1 id="13" name="矿业工程">
+    <level2 id="570" name="矿山地质测量" />
+    <level2 id="571" name="矿井建设" />
+    <level2 id="572" name="矿山机电" />
+    <level2 id="573" name="矿井通风与安全" />
+    <level2 id="574" name="矿山开采" />
+    <level2 id="575" name="煤矿开采" />
+    <level2 id="576" name="金属矿开采" />
+    <level2 id="577" name="非金属矿开采" />
+    <level2 id="578" name="选矿" />
+  </level1>
+  <level1 id="14" name="石油与天然气工程">
+    <level2 id="137" name="油气勘探" />
+    <level2 id="138" name="油气井工程" />
+    <level2 id="139" name="油气田开发工程" />
+    <level2 id="140" name="油气加工工程" />
+    <level2 id="579" name="油气储运工程" />
+    <level2 id="580" name="石油机械设备" />
+  </level1>
+  <level1 id="15" name="冶金工程">
+    <level2 id="141" name="冶金物理化学" />
+    <level2 id="143" name="粉末冶金" />
+    <level2 id="144" name="冶金机械及自动化" />
+    <level2 id="145" name="钢铁冶金" />
+    <level2 id="146" name="有色金属冶金" />
+  </level1>
+  <level1 id="16" name="金属学及工艺">
+    <level2 id="147" name="金属学" />
+    <level2 id="148" name="物理冶金" />
+    <level2 id="149" name="合金" />
+    <level2 id="627" name="金属材料" />
+    <level2 id="150" name="热处理" />
+    <level2 id="151" name="金属表面处理" />
+    <level2 id="152" name="铸造" />
+    <level2 id="153" name="金属压力加工" />
+    <level2 id="154" name="焊接" />
+    <level2 id="155" name="金属切削加工及机床" />
+    <level2 id="156" name="刀具与模具" />
+    <level2 id="157" name="公差测量技术" />
+    <level2 id="158" name="钳工工艺" />
+  </level1>
+  <level1 id="17" name="机械工程">
+    <level2 id="159" name="机械设计及理论" />
+    <level2 id="160" name="机械制造及自动化" />
+    <level2 id="161" name="仪器科学与技术" />
+    <level2 id="581" name="精密仪器及机械" />
+    <level2 id="582" name="测试计量技术及仪器" />
+    <level2 id="583" name="车辆工程" />
+    <level2 id="584" name="光学工程" />
+  </level1>
+  <level1 id="268" name="兵器科学与技术">
+    <level2 id="585" name="兵器发射理论与技术" />
+    <level2 id="586" name="武器系统与运用工程" />
+    <level2 id="587" name="火炮、自动武器与弹药工程" />
+    <level2 id="588" name="军事化学与烟火技术" />
+  </level1>
+  <level1 id="18" name="动力工程及工程热物理">
+    <level2 id="167" name="热能工程" />
+    <level2 id="168" name="工程热物理" />
+    <level2 id="169" name="动力机械及工程" />
+    <level2 id="170" name="生物能" />
+    <level2 id="171" name="流体机械及工程" />
+  </level1>
+  <level1 id="29" name="核科学技术">
+    <level2 id="589" name="核能科学" />
+    <level2 id="590" name="核燃料循环与材料" />
+    <level2 id="591" name="核技术及应用" />
+    <level2 id="592" name="辐射防护及环境保护" />
+  </level1>
+  <level1 id="20" name="电气工程">
+    <level2 id="180" name="电工理论与新技术" />
+    <level2 id="181" name="电机" />
+    <level2 id="186" name="电器" />
+    <level2 id="182" name="电力系统及自动化" />
+    <level2 id="184" name="高电压与绝缘技术" />
+    <level2 id="185" name="电力电子与电力传动" />
+  </level1>
+  <level1 id="19" name="电子电信">
+    <level2 id="173" name="物理电子学" />
+    <level2 id="174" name="微电子学与固体电子学" />
+    <level2 id="175" name="电路与系统" />
+    <level2 id="176" name="信息与通信工程" />
+    <level2 id="177" name="通信与信息系统" />
+    <level2 id="178" name="信号与信息处理" />
+  </level1>
+  <level1 id="21" name="自动化与计算机技术">
+    <level2 id="593" name="控制科学与工程" />
+    <level2 id="594" name="控制理论与控制工程" />
+    <level2 id="595" name="检测技术与自动化装置" />
+    <level2 id="596" name="计算机科学与技术" />
+    <level2 id="597" name="计算机系统结构" />
+    <level2 id="598" name="计算机软件与理论" />
+    <level2 id="599" name="计算机应用技术" />
+  </level1>
+  <level1 id="12" name="化学工程">
+    <level2 id="123" name="无机化工" />
+    <level2 id="124" name="电化学工业" />
+    <level2 id="122" name="高温制品工业" />
+    <level2 id="125" name="硅酸盐工业" />
+    <level2 id="600" name="玻璃工业" />
+    <level2 id="601" name="水泥工业" />
+    <level2 id="602" name="搪瓷工业" />
+    <level2 id="603" name="陶瓷工业" />
+    <level2 id="126" name="有机化工" />
+    <level2 id="127" name="高聚物工业" />
+    <level2 id="604" name="合成树脂塑料工业" />
+    <level2 id="605" name="橡胶工业" />
+    <level2 id="606" name="化纤工业" />
+    <level2 id="128" name="化学肥料工业" />
+    <level2 id="129" name="农药化工" />
+    <level2 id="130" name="制药化工" />
+    <level2 id="131" name="煤化学工程" />
+    <level2 id="132" name="炸药化工" />
+    <level2 id="133" name="精细化工" />
+  </level1>
+  <level1 id="25" name="轻工技术与工程">
+    <level2 id="607" name="纺织科学与工程" />
+    <level2 id="608" name="纺织工程" />
+    <level2 id="609" name="纺织材料与纺织品设计" />
+    <level2 id="610" name="纺织化学与染整工程" />
+    <level2 id="611" name="服装设计与工程" />
+    <level2 id="612" name="食品科学与工程" />
+    <level2 id="613" name="食品科学" />
+    <level2 id="614" name="粮食、油脂及植物蛋白工程" />
+    <level2 id="615" name="制糖工程" />
+    <level2 id="616" name="农产品加工及贮藏工程" />
+    <level2 id="617" name="水产品加工及贮藏工程" />
+    <level2 id="618" name="发酵工程" />
+    <level2 id="619" name="皮革化学与工程" />
+    <level2 id="620" name="制浆造纸工程" />
+  </level1>
+  <level1 id="22" name="建筑科学">
+    <level2 id="195" name="建筑理论" />
+    <level2 id="196" name="建筑设计及理论" />
+    <level2 id="197" name="建筑技术科学" />
+    <level2 id="198" name="土工工程" />
+    <level2 id="199" name="岩土工程" />
+    <level2 id="622" name="结构工程" />
+    <level2 id="623" name="城市规划与设计" />
+    <level2 id="624" name="市政工程" />
+    <level2 id="625" name="供热、供燃气、通风及空调工程" />
+    <level2 id="626" name="桥梁与隧道工程" />
+  </level1>
+  <level1 id="23" name="水利工程">
+    <level2 id="204" name="水文学及水资源" />
+    <level2 id="205" name="水力学及河流动力学" />
+    <level2 id="206" name="水工结构工程" />
+    <level2 id="207" name="水利水电工程" />
+  </level1>
+  <level1 id="26" name="交通运输工程">
+    <level2 id="208" name="道路与铁道工程" />
+    <level2 id="209" name="交通信息工程及控制" />
+    <level2 id="210" name="交通运输规划与管理" />
+    <level2 id="211" name="载运工具运用工程" />
+    <level2 id="212" name="船舶与海洋工程" />
+    <level2 id="213" name="船舶及航道工程" />
+    <level2 id="214" name="轮机工程" />
+    <level2 id="215" name="水声工程" />
+    <level2 id="621" name="港口、海岸及近海工程" />
+  </level1>
+  <level1 id="27" name="航空宇航科学技术">
+    <level2 id="216" name="飞行器设计" />
+    <level2 id="217" name="航空宇航推进理论与工程" />
+    <level2 id="218" name="航空宇航制造工程" />
+    <level2 id="219" name="人机与环境工程" />
+  </level1>
+  <level1 id="28" name="环境科学与工程">
+    <level2 id="221" name="环境科学" />
+    <level2 id="222" name="环境工程" />
+    <level2 id="223" name="灾害防治" />
+    <level2 id="226" name="安全科学" />
+  </level1>
+</root>

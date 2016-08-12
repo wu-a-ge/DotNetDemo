@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\MSDN\URL Rewriting in ASP.NET\URLRewriter\bin\Debug\URLRewriter.dll
+C:\Documents and Settings\Administrator\My Documents\MSDN\URL Rewriting in ASP.NET\URLRewriter\bin\Debug\URLRewriter.pdb
+C:\Documents and Settings\Administrator\My Documents\MSDN\URL Rewriting in ASP.NET\URLRewriter\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\MSDN\URL Rewriting in ASP.NET\URLRewriter\obj\Debug\URLRewriter.dll
+C:\Documents and Settings\Administrator\My Documents\MSDN\URL Rewriting in ASP.NET\URLRewriter\obj\Debug\URLRewriter.pdb
+D:\YinWenUrlRewriting\URLRewriter\bin\Debug\URLRewriter.dll
+D:\YinWenUrlRewriting\URLRewriter\bin\Debug\URLRewriter.pdb
+D:\YinWenUrlRewriting\URLRewriter\obj\Debug\ResolveAssemblyReference.cache
+D:\YinWenUrlRewriting\URLRewriter\obj\Debug\URLRewriter.dll
+D:\YinWenUrlRewriting\URLRewriter\obj\Debug\URLRewriter.pdb

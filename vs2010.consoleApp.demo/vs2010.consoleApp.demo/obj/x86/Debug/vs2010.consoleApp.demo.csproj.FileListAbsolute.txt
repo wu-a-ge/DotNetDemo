@@ -1,0 +1,8 @@
+D:\open-source-projects\github\dotnetdemo\vs2010.consoleApp.demo\vs2010.consoleApp.demo\bin\Debug\vs2010.consoleApp.demo.exe
+D:\open-source-projects\github\dotnetdemo\vs2010.consoleApp.demo\vs2010.consoleApp.demo\bin\Debug\vs2010.consoleApp.demo.pdb
+D:\open-source-projects\github\dotnetdemo\vs2010.consoleApp.demo\vs2010.consoleApp.demo\bin\Debug\Newtonsoft.Json.dll
+D:\open-source-projects\github\dotnetdemo\vs2010.consoleApp.demo\vs2010.consoleApp.demo\bin\Debug\Interop.ADOX.dll
+D:\open-source-projects\github\dotnetdemo\vs2010.consoleApp.demo\vs2010.consoleApp.demo\obj\x86\Debug\Interop.ADOX.dll
+D:\open-source-projects\github\dotnetdemo\vs2010.consoleApp.demo\vs2010.consoleApp.demo\obj\x86\Debug\vs2010.consoleApp.demo.csproj.ResolveComReference.cache
+D:\open-source-projects\github\dotnetdemo\vs2010.consoleApp.demo\vs2010.consoleApp.demo\obj\x86\Debug\vs2010.consoleApp.demo.exe
+D:\open-source-projects\github\dotnetdemo\vs2010.consoleApp.demo\vs2010.consoleApp.demo\obj\x86\Debug\vs2010.consoleApp.demo.pdb

@@ -1,0 +1,5 @@
+D:\Demo\AssemblyDemo\ShareDemo\obj\Debug\ResolveAssemblyReference.cache
+D:\Demo\AssemblyDemo\ShareDemo\bin\Debug\ShareDemo.dll
+D:\Demo\AssemblyDemo\ShareDemo\bin\Debug\ShareDemo.pdb
+D:\Demo\AssemblyDemo\ShareDemo\obj\Debug\ShareDemo.dll
+D:\Demo\AssemblyDemo\ShareDemo\obj\Debug\ShareDemo.pdb

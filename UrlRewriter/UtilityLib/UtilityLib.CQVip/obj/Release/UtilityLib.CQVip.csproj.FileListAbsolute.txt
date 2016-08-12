@@ -1,0 +1,12 @@
+D:\Demo\UtilityLib\UtilityLib.CQVip\bin\Release\UtilityLib.CQVip.dll
+D:\Demo\UtilityLib\UtilityLib.CQVip\bin\Release\UtilityLib.CQVip.pdb
+D:\Demo\UtilityLib\UtilityLib.CQVip\bin\Release\UtilityLib.WebHelper.dll
+D:\Demo\UtilityLib\UtilityLib.CQVip\bin\Release\UtilityLib.WebHelper.pdb
+D:\Demo\UtilityLib\UtilityLib.CQVip\bin\Release\Interop.CTLICENCESVCLib.dll
+D:\Demo\UtilityLib\UtilityLib.CQVip\bin\Release\Interop.VipIELILib.dll
+D:\Demo\UtilityLib\UtilityLib.CQVip\obj\Release\ResolveAssemblyReference.cache
+D:\Demo\UtilityLib\UtilityLib.CQVip\obj\Release\Interop.CTLICENCESVCLib.dll
+D:\Demo\UtilityLib\UtilityLib.CQVip\obj\Release\Interop.VipIELILib.dll
+D:\Demo\UtilityLib\UtilityLib.CQVip\obj\Release\UtilityLib.CQVip.csproj.ResolveComReference.cache
+D:\Demo\UtilityLib\UtilityLib.CQVip\obj\Release\UtilityLib.CQVip.dll
+D:\Demo\UtilityLib\UtilityLib.CQVip\obj\Release\UtilityLib.CQVip.pdb

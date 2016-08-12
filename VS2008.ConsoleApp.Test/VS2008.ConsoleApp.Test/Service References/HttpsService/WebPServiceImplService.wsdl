@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tns="http://webservice.webp.huateng.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://cxf.apache.org/bindings/xformat" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WebPServiceImplService" targetNamespace="http://webservice.webp.huateng.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://webservice.webp.huateng.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="callWebP" type="tns:callWebP" />
+      <xs:element name="callWebPResponse" type="tns:callWebPResponse" />
+      <xs:complexType name="callWebP">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="request" type="tns:commonData" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="commonData">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="activeState" type="xs:string" />
+          <xs:element minOccurs="0" name="activeTime" type="xs:string" />
+          <xs:element minOccurs="0" name="address" type="xs:string" />
+          <xs:element minOccurs="0" name="balance" type="xs:string" />
+          <xs:element minOccurs="0" name="bindState" type="xs:string" />
+          <xs:element minOccurs="0" name="birthday" type="xs:string" />
+          <xs:element minOccurs="0" name="cardMoney" type="xs:string" />
+          <xs:element minOccurs="0" name="cardNo" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="cardTxnInfo" nillable="true" type="tns:commonData" />
+          <xs:element minOccurs="0" name="cardType" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="cardsInfo" nillable="true" type="tns:commonData" />
+          <xs:element minOccurs="0" name="certNo" type="xs:string" />
+          <xs:element minOccurs="0" name="certState" type="xs:string" />
+          <xs:element minOccurs="0" name="certType" type="xs:string" />
+          <xs:element minOccurs="0" name="coprAddr" type="xs:string" />
+          <xs:element minOccurs="0" name="corpNm" type="xs:string" />
+          <xs:element minOccurs="0" name="corpTel" type="xs:string" />
+          <xs:element minOccurs="0" name="corpZipCd" type="xs:string" />
+          <xs:element minOccurs="0" name="cvv2" type="xs:string" />
+          <xs:element minOccurs="0" name="email" type="xs:string" />
+          <xs:element minOccurs="0" name="endDate" type="xs:string" />
+          <xs:element minOccurs="0" name="endLine" type="xs:string" />
+          <xs:element minOccurs="0" name="epayIn" type="xs:string" />
+          <xs:element minOccurs="0" name="freezesState" type="xs:string" />
+          <xs:element minOccurs="0" name="isEpay" type="xs:string" />
+          <xs:element minOccurs="0" name="issueId" type="xs:string" />
+          <xs:element minOccurs="0" name="limitPayMoney" type="xs:string" />
+          <xs:element minOccurs="0" name="lockState" type="xs:string" />
+          <xs:element minOccurs="0" name="loginPwd" type="xs:string" />
+          <xs:element minOccurs="0" name="lossState" type="xs:string" />
+          <xs:element minOccurs="0" name="merchantId" type="xs:string" />
+          <xs:element minOccurs="0" name="merchantName" type="xs:string" />
+          <xs:element minOccurs="0" name="mobile" type="xs:string" />
+          <xs:element minOccurs="0" name="mobileState" type="xs:string" />
+          <xs:element minOccurs="0" name="newPwd" type="xs:string" />
+          <xs:element minOccurs="0" name="nickName" type="xs:string" />
+          <xs:element minOccurs="0" name="oldPwd" type="xs:string" />
+          <xs:element minOccurs="0" name="oldTransferNo" type="xs:string" />
+          <xs:element minOccurs="0" name="orgCenterSysTime" type="xs:string" />
+          <xs:element minOccurs="0" name="orgCenterTraceNum" type="xs:string" />
+          <xs:element minOccurs="0" name="orgCurrencyType" type="xs:string" />
+          <xs:element minOccurs="0" name="orgRespCode" type="xs:string" />
+          <xs:element minOccurs="0" name="orgTranAmt" type="xs:string" />
+          <xs:element minOccurs="0" name="orgTranCode" type="xs:string" />
+          <xs:element minOccurs="0" name="password" type="xs:string" />
+          <xs:element minOccurs="0" name="productId" type="xs:string" />
+          <xs:element minOccurs="0" name="productName" type="xs:string" />
+          <xs:element minOccurs="0" name="queryType" type="xs:string" />
+          <xs:element minOccurs="0" name="realName" type="xs:string" />
+          <xs:element minOccurs="0" name="respCode" type="xs:string" />
+          <xs:element minOccurs="0" name="serviceId" type="xs:string" />
+          <xs:element minOccurs="0" name="serviceName" type="xs:string" />
+          <xs:element minOccurs="0" name="sex" type="xs:string" />
+          <xs:element minOccurs="0" name="startDate" type="xs:string" />
+          <xs:element minOccurs="0" name="startLine" type="xs:string" />
+          <xs:element minOccurs="0" name="totalLine" type="xs:string" />
+          <xs:element minOccurs="0" name="tranCode" type="xs:string" />
+          <xs:element minOccurs="0" name="tranDateTime" type="xs:string" />
+          <xs:element minOccurs="0" name="tranType" type="xs:string" />
+          <xs:element minOccurs="0" name="transMoney" type="xs:string" />
+          <xs:element minOccurs="0" name="transTime" type="xs:string" />
+          <xs:element minOccurs="0" name="transferNo" type="xs:string" />
+          <xs:element minOccurs="0" name="userId" type="xs:string" />
+          <xs:element minOccurs="0" name="userState" type="xs:string" />
+          <xs:element minOccurs="0" name="valideCode" type="xs:string" />
+          <xs:element minOccurs="0" name="valideTime" type="xs:string" />
+          <xs:element minOccurs="0" name="zipCode" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="callWebPResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="response" type="tns:commonData" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="BizServiceException" type="tns:BizServiceException" />
+      <xs:complexType name="BizServiceException">
+        <xs:sequence />
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="callWebPResponse">
+    <wsdl:part name="parameters" element="tns:callWebPResponse" />
+  </wsdl:message>
+  <wsdl:message name="BizServiceException">
+    <wsdl:part name="BizServiceException" element="tns:BizServiceException" />
+  </wsdl:message>
+  <wsdl:message name="callWebP">
+    <wsdl:part name="parameters" element="tns:callWebP" />
+  </wsdl:message>
+  <wsdl:portType name="IWebPService">
+    <wsdl:operation name="callWebP">
+      <wsdl:input name="callWebP" message="tns:callWebP" />
+      <wsdl:output name="callWebPResponse" message="tns:callWebPResponse" />
+      <wsdl:fault name="BizServiceException" message="tns:BizServiceException" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebPServiceImplServiceSoapBinding" type="tns:IWebPService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="callWebP">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="callWebP">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="callWebPResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="BizServiceException">
+        <soap:fault use="literal" name="BizServiceException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebPServiceImplService">
+    <wsdl:port name="WebPServiceImplPort" binding="tns:WebPServiceImplServiceSoapBinding">
+      <soap:address location="https://112.65.146.40:443/WebP/dongfangbao/webPService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

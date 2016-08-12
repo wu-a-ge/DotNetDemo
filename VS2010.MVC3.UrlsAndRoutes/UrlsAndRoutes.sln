@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlsAndRoutes.Test", "TestProject1\UrlsAndRoutes.Test.csproj", "{5E94105F-84BF-4C7A-9C14-BCD7FE081335}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9D6FCE08-6B4A-4CE3-BA04-BC0D1E67BB40}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		UrlsAndRoutes.vsmdi = UrlsAndRoutes.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlsAndRoutes", "UrlsAndRoutes\UrlsAndRoutes.csproj", "{02D57C84-0BF6-40A7-924C-46D31FD8A9BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdditionalControllers", "AdditionalControllers\AdditionalControllers.csproj", "{B8A7BCC6-4C82-46E9-8F4B-4682A48B2ED4}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = UrlsAndRoutes.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E94105F-84BF-4C7A-9C14-BCD7FE081335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E94105F-84BF-4C7A-9C14-BCD7FE081335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E94105F-84BF-4C7A-9C14-BCD7FE081335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E94105F-84BF-4C7A-9C14-BCD7FE081335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D57C84-0BF6-40A7-924C-46D31FD8A9BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D57C84-0BF6-40A7-924C-46D31FD8A9BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D57C84-0BF6-40A7-924C-46D31FD8A9BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D57C84-0BF6-40A7-924C-46D31FD8A9BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A7BCC6-4C82-46E9-8F4B-4682A48B2ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A7BCC6-4C82-46E9-8F4B-4682A48B2ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A7BCC6-4C82-46E9-8F4B-4682A48B2ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A7BCC6-4C82-46E9-8F4B-4682A48B2ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

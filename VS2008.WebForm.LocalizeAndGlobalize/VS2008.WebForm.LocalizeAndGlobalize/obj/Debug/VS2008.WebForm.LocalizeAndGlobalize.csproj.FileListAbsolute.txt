@@ -1,0 +1,7 @@
+E:\快盘\Demo\VS2008.WebForm.LocalizeAndGlobalize\VS2008.WebForm.LocalizeAndGlobalize\bin\VS2008.WebForm.LocalizeAndGlobalize.dll
+E:\快盘\Demo\VS2008.WebForm.LocalizeAndGlobalize\VS2008.WebForm.LocalizeAndGlobalize\bin\VS2008.WebForm.LocalizeAndGlobalize.pdb
+E:\快盘\Demo\VS2008.WebForm.LocalizeAndGlobalize\VS2008.WebForm.LocalizeAndGlobalize\bin\VS2008.WebForm.Resources.dll
+E:\快盘\Demo\VS2008.WebForm.LocalizeAndGlobalize\VS2008.WebForm.LocalizeAndGlobalize\bin\VS2008.WebForm.Resources.pdb
+E:\快盘\Demo\VS2008.WebForm.LocalizeAndGlobalize\VS2008.WebForm.LocalizeAndGlobalize\obj\Debug\ResolveAssemblyReference.cache
+E:\快盘\Demo\VS2008.WebForm.LocalizeAndGlobalize\VS2008.WebForm.LocalizeAndGlobalize\obj\Debug\VS2008.WebForm.LocalizeAndGlobalize.dll
+E:\快盘\Demo\VS2008.WebForm.LocalizeAndGlobalize\VS2008.WebForm.LocalizeAndGlobalize\obj\Debug\VS2008.WebForm.LocalizeAndGlobalize.pdb

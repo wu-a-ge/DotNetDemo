@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://vipcloud.cqvip.com/vipCloud/webService/ReaderInfo" name="ReaderInfoService" targetNamespace="http://vipcloud.cqvip.com/vipCloud/webService/ReaderInfo" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="http://vipcloud.cqvip.com/vipCloud/webService/ReaderInfo" elementFormDefault="unqualified" targetNamespace="http://vipcloud.cqvip.com/vipCloud/webService/ReaderInfo" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="add" type="tns:add" />
+      <xs:element name="addResponse" type="tns:addResponse" />
+      <xs:element name="counts" type="tns:counts" />
+      <xs:element name="countsByGroup" type="tns:countsByGroup" />
+      <xs:element name="countsByGroupResponse" type="tns:countsByGroupResponse" />
+      <xs:element name="countsResponse" type="tns:countsResponse" />
+      <xs:element name="delete" type="tns:delete" />
+      <xs:element name="deleteResponse" type="tns:deleteResponse" />
+      <xs:element name="getListsByIds" type="tns:getListsByIds" />
+      <xs:element name="getListsByIdsResponse" type="tns:getListsByIdsResponse" />
+      <xs:element name="getListsByPage" type="tns:getListsByPage" />
+      <xs:element name="getListsByPageResponse" type="tns:getListsByPageResponse" />
+      <xs:element name="getUserInfo" type="tns:getUserInfo" />
+      <xs:element name="getUserInfoResponse" type="tns:getUserInfoResponse" />
+      <xs:element name="update" type="tns:update" />
+      <xs:element name="updateResponse" type="tns:updateResponse" />
+      <xs:complexType name="add">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="readers" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="addResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:results" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="results">
+        <xs:sequence>
+          <xs:element name="counts" type="xs:int" />
+          <xs:element minOccurs="0" name="data" type="xs:string" />
+          <xs:element minOccurs="0" name="desc" type="xs:string" />
+          <xs:element name="exception" type="xs:boolean" />
+          <xs:element name="success" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="delete">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ids" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="deleteResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:results" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="update">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="readers" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="updateResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:results" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getListsByPage">
+        <xs:sequence>
+          <xs:element name="pageIndex" type="xs:int" />
+          <xs:element name="pageSize" type="xs:int" />
+          <xs:element minOccurs="0" name="where" type="xs:string" />
+          <xs:element minOccurs="0" name="selector" type="xs:string" />
+          <xs:element minOccurs="0" name="orderby" type="xs:string" />
+          <xs:element name="isAsc" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getListsByPageResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:results" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getUserInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="loginName" type="xs:string" />
+          <xs:element minOccurs="0" name="password" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getUserInfoResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:results" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="counts">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="where" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="countsResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:results" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getListsByIds">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ids" type="xs:string" />
+          <xs:element minOccurs="0" name="selector" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getListsByIdsResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:results" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="countsByGroup">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="where" type="xs:string" />
+          <xs:element minOccurs="0" name="groupName" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="countsByGroupResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:results" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="add">
+    <wsdl:part name="parameters" element="ns1:add" />
+  </wsdl:message>
+  <wsdl:message name="getUserInfo">
+    <wsdl:part name="parameters" element="ns1:getUserInfo" />
+  </wsdl:message>
+  <wsdl:message name="getListsByIds">
+    <wsdl:part name="parameters" element="ns1:getListsByIds" />
+  </wsdl:message>
+  <wsdl:message name="countsResponse">
+    <wsdl:part name="parameters" element="ns1:countsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getUserInfoResponse">
+    <wsdl:part name="parameters" element="ns1:getUserInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="update">
+    <wsdl:part name="parameters" element="ns1:update" />
+  </wsdl:message>
+  <wsdl:message name="getListsByPageResponse">
+    <wsdl:part name="parameters" element="ns1:getListsByPageResponse" />
+  </wsdl:message>
+  <wsdl:message name="addResponse">
+    <wsdl:part name="parameters" element="ns1:addResponse" />
+  </wsdl:message>
+  <wsdl:message name="getListsByPage">
+    <wsdl:part name="parameters" element="ns1:getListsByPage" />
+  </wsdl:message>
+  <wsdl:message name="countsByGroupResponse">
+    <wsdl:part name="parameters" element="ns1:countsByGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="delete">
+    <wsdl:part name="parameters" element="ns1:delete" />
+  </wsdl:message>
+  <wsdl:message name="countsByGroup">
+    <wsdl:part name="parameters" element="ns1:countsByGroup" />
+  </wsdl:message>
+  <wsdl:message name="counts">
+    <wsdl:part name="parameters" element="ns1:counts" />
+  </wsdl:message>
+  <wsdl:message name="updateResponse">
+    <wsdl:part name="parameters" element="ns1:updateResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteResponse">
+    <wsdl:part name="parameters" element="ns1:deleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="getListsByIdsResponse">
+    <wsdl:part name="parameters" element="ns1:getListsByIdsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ReaderInfoService">
+    <wsdl:operation name="add">
+      <wsdl:input name="add" message="ns1:add" />
+      <wsdl:output name="addResponse" message="ns1:addResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <wsdl:input name="delete" message="ns1:delete" />
+      <wsdl:output name="deleteResponse" message="ns1:deleteResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="update">
+      <wsdl:input name="update" message="ns1:update" />
+      <wsdl:output name="updateResponse" message="ns1:updateResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getListsByPage">
+      <wsdl:input name="getListsByPage" message="ns1:getListsByPage" />
+      <wsdl:output name="getListsByPageResponse" message="ns1:getListsByPageResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getUserInfo">
+      <wsdl:input name="getUserInfo" message="ns1:getUserInfo" />
+      <wsdl:output name="getUserInfoResponse" message="ns1:getUserInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="counts">
+      <wsdl:input name="counts" message="ns1:counts" />
+      <wsdl:output name="countsResponse" message="ns1:countsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getListsByIds">
+      <wsdl:input name="getListsByIds" message="ns1:getListsByIds" />
+      <wsdl:output name="getListsByIdsResponse" message="ns1:getListsByIdsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="countsByGroup">
+      <wsdl:input name="countsByGroup" message="ns1:countsByGroup" />
+      <wsdl:output name="countsByGroupResponse" message="ns1:countsByGroupResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

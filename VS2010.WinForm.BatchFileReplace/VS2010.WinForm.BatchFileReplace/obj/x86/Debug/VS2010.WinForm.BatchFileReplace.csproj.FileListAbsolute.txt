@@ -1,0 +1,10 @@
+E:\Demo\VS2010.WinForm.BatchFileReplace\VS2010.WinForm.BatchFileReplace\bin\Debug\VS2010.WinForm.BatchFileReplace.exe.config
+E:\Demo\VS2010.WinForm.BatchFileReplace\VS2010.WinForm.BatchFileReplace\bin\Debug\VS2010.WinForm.BatchFileReplace.exe
+E:\Demo\VS2010.WinForm.BatchFileReplace\VS2010.WinForm.BatchFileReplace\bin\Debug\VS2010.WinForm.BatchFileReplace.pdb
+E:\Demo\VS2010.WinForm.BatchFileReplace\VS2010.WinForm.BatchFileReplace\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Demo\VS2010.WinForm.BatchFileReplace\VS2010.WinForm.BatchFileReplace\obj\x86\Debug\VS2010.WinForm.BatchFileReplace.Form1.resources
+E:\Demo\VS2010.WinForm.BatchFileReplace\VS2010.WinForm.BatchFileReplace\obj\x86\Debug\VS2010.WinForm.BatchFileReplace.Properties.Resources.resources
+E:\Demo\VS2010.WinForm.BatchFileReplace\VS2010.WinForm.BatchFileReplace\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Demo\VS2010.WinForm.BatchFileReplace\VS2010.WinForm.BatchFileReplace\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Demo\VS2010.WinForm.BatchFileReplace\VS2010.WinForm.BatchFileReplace\obj\x86\Debug\VS2010.WinForm.BatchFileReplace.exe
+E:\Demo\VS2010.WinForm.BatchFileReplace\VS2010.WinForm.BatchFileReplace\obj\x86\Debug\VS2010.WinForm.BatchFileReplace.pdb

@@ -1,0 +1,15 @@
+E:\Demo\VS2008.ConsoleApp.EntLibTest\VS2008.ConsoleApp.EntLibTest\bin\Debug\VS2008.ConsoleApp.EntLibTest.exe
+E:\Demo\VS2008.ConsoleApp.EntLibTest\VS2008.ConsoleApp.EntLibTest\bin\Debug\VS2008.ConsoleApp.EntLibTest.pdb
+E:\Demo\VS2008.ConsoleApp.EntLibTest\VS2008.ConsoleApp.EntLibTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+E:\Demo\VS2008.ConsoleApp.EntLibTest\VS2008.ConsoleApp.EntLibTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Demo\VS2008.ConsoleApp.EntLibTest\VS2008.ConsoleApp.EntLibTest\bin\Debug\Microsoft.Practices.Unity.dll
+E:\Demo\VS2008.ConsoleApp.EntLibTest\VS2008.ConsoleApp.EntLibTest\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\Demo\VS2008.ConsoleApp.EntLibTest\VS2008.ConsoleApp.EntLibTest\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Demo\VS2008.ConsoleApp.EntLibTest\VS2008.ConsoleApp.EntLibTest\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\Demo\VS2008.ConsoleApp.EntLibTest\VS2008.ConsoleApp.EntLibTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Demo\VS2008.ConsoleApp.EntLibTest\VS2008.ConsoleApp.EntLibTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+E:\Demo\VS2008.ConsoleApp.EntLibTest\VS2008.ConsoleApp.EntLibTest\obj\Debug\ResolveAssemblyReference.cache
+E:\Demo\VS2008.ConsoleApp.EntLibTest\VS2008.ConsoleApp.EntLibTest\obj\Debug\VS2008.ConsoleApp.EntLibTest.exe
+E:\Demo\VS2008.ConsoleApp.EntLibTest\VS2008.ConsoleApp.EntLibTest\obj\Debug\VS2008.ConsoleApp.EntLibTest.pdb
+E:\快盘\Demo\VS2008.ConsoleApp.EntLibTest\VS2008.ConsoleApp.EntLibTest\obj\Debug\VS2008.ConsoleApp.EntLibTest.exe
+E:\快盘\Demo\VS2008.ConsoleApp.EntLibTest\VS2008.ConsoleApp.EntLibTest\obj\Debug\VS2008.ConsoleApp.EntLibTest.pdb

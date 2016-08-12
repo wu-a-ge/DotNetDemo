@@ -1,0 +1,5 @@
+E:\Demo\VS2010.WebForm.DynamicTemplateColumn\VS2010.WebForm.DynamicTemplateColumn\obj\Debug\ResolveAssemblyReference.cache
+E:\Demo\VS2010.WebForm.DynamicTemplateColumn\VS2010.WebForm.DynamicTemplateColumn\bin\VS2010.WebForm.DynamicTemplateColumn.dll
+E:\Demo\VS2010.WebForm.DynamicTemplateColumn\VS2010.WebForm.DynamicTemplateColumn\bin\VS2010.WebForm.DynamicTemplateColumn.pdb
+E:\Demo\VS2010.WebForm.DynamicTemplateColumn\VS2010.WebForm.DynamicTemplateColumn\obj\Debug\VS2010.WebForm.DynamicTemplateColumn.dll
+E:\Demo\VS2010.WebForm.DynamicTemplateColumn\VS2010.WebForm.DynamicTemplateColumn\obj\Debug\VS2010.WebForm.DynamicTemplateColumn.pdb

@@ -1,0 +1,9 @@
+D:\Demo\VS2008.WebForm.DataBinder\VS2008.WebForm.DataBinder\bin\VS2008.WebForm.DataBinder.dll
+D:\Demo\VS2008.WebForm.DataBinder\VS2008.WebForm.DataBinder\bin\VS2008.WebForm.DataBinder.pdb
+D:\Demo\VS2008.WebForm.DataBinder\VS2008.WebForm.DataBinder\bin\Artech.DataBinding.Lib.dll
+D:\Demo\VS2008.WebForm.DataBinder\VS2008.WebForm.DataBinder\bin\Artech.PropertyAccessor.dll
+D:\Demo\VS2008.WebForm.DataBinder\VS2008.WebForm.DataBinder\bin\Artech.DataBinding.Lib.pdb
+D:\Demo\VS2008.WebForm.DataBinder\VS2008.WebForm.DataBinder\bin\Artech.PropertyAccessor.pdb
+D:\Demo\VS2008.WebForm.DataBinder\VS2008.WebForm.DataBinder\obj\Debug\ResolveAssemblyReference.cache
+D:\Demo\VS2008.WebForm.DataBinder\VS2008.WebForm.DataBinder\obj\Debug\VS2008.WebForm.DataBinder.dll
+D:\Demo\VS2008.WebForm.DataBinder\VS2008.WebForm.DataBinder\obj\Debug\VS2008.WebForm.DataBinder.pdb

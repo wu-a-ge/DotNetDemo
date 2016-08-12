@@ -1,0 +1,9 @@
+F:\快盘\Demo\VS2010.WebForm.KnockoutJs\VS2010.WebForm.KnockoutJs\bin\VS2010.WebForm.KnockoutJs.dll
+F:\快盘\Demo\VS2010.WebForm.KnockoutJs\VS2010.WebForm.KnockoutJs\bin\VS2010.WebForm.KnockoutJs.pdb
+F:\快盘\Demo\VS2010.WebForm.KnockoutJs\VS2010.WebForm.KnockoutJs\obj\Debug\ResolveAssemblyReference.cache
+F:\快盘\Demo\VS2010.WebForm.KnockoutJs\VS2010.WebForm.KnockoutJs\obj\Debug\VS2010.WebForm.KnockoutJs.dll
+F:\快盘\Demo\VS2010.WebForm.KnockoutJs\VS2010.WebForm.KnockoutJs\obj\Debug\VS2010.WebForm.KnockoutJs.pdb
+E:\快盘\Demo\VS2010.WebForm.KnockoutJs\VS2010.WebForm.KnockoutJs\bin\VS2010.WebForm.KnockoutJs.dll
+E:\快盘\Demo\VS2010.WebForm.KnockoutJs\VS2010.WebForm.KnockoutJs\bin\VS2010.WebForm.KnockoutJs.pdb
+E:\快盘\Demo\VS2010.WebForm.KnockoutJs\VS2010.WebForm.KnockoutJs\obj\Debug\VS2010.WebForm.KnockoutJs.dll
+E:\快盘\Demo\VS2010.WebForm.KnockoutJs\VS2010.WebForm.KnockoutJs\obj\Debug\VS2010.WebForm.KnockoutJs.pdb

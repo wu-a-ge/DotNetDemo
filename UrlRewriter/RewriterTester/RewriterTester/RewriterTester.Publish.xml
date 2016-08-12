@@ -1,0 +1,45 @@
+<publishData>
+  <publishTarget publishUrl="D:\UrlRewriterTest\">
+    <file relUrl="2004/06/Default.aspx" publishTime="01/30/2004 17:52:08" />
+    <file relUrl="2004/Default.aspx" publishTime="01/30/2004 17:52:06" />
+    <file relUrl="2003/05/Default.aspx" publishTime="01/30/2004 17:52:00" />
+    <file relUrl="bin/RewriterTester.dll" publishTime="05/25/2010 11:35:58" />
+    <file relUrl="2004/10/Default.aspx" publishTime="01/30/2004 17:52:10" />
+    <file relUrl="2004/08/Default.aspx" publishTime="01/30/2004 17:52:08" />
+    <file relUrl="ShowBlogContent.aspx" publishTime="05/24/2010 15:14:14" />
+    <file relUrl="2003/08/Default.aspx" publishTime="01/30/2004 17:52:00" />
+    <file relUrl="bin/URLRewriter.pdb" publishTime="05/25/2010 11:35:56" />
+    <file relUrl="2004/11/Default.aspx" publishTime="01/30/2004 17:52:10" />
+    <file relUrl="2003/04/Default.aspx" publishTime="01/30/2004 17:51:58" />
+    <file relUrl="bin/ActionlessForm.pdb" publishTime="05/25/2010 11:35:56" />
+    <file relUrl="2003/06/Default.aspx" publishTime="01/30/2004 17:52:00" />
+    <file relUrl="2004/04/Default.aspx" publishTime="01/30/2004 17:52:08" />
+    <file relUrl="2004/12/Default.aspx" publishTime="01/30/2004 17:52:10" />
+    <file relUrl="2004/03/Default.aspx" publishTime="01/30/2004 17:52:08" />
+    <file relUrl="2003/07/Default.aspx" publishTime="01/30/2004 17:52:00" />
+    <file relUrl="Web.config" publishTime="05/25/2010 11:11:40" />
+    <file relUrl="2003/02/Default.aspx" publishTime="01/30/2004 17:51:58" />
+    <file relUrl="2004/07/Default.aspx" publishTime="01/30/2004 17:52:08" />
+    <file relUrl="Global.asax" publishTime="01/29/2004 17:47:04" />
+    <file relUrl="2003/03/Default.aspx" publishTime="01/30/2004 17:51:58" />
+    <file relUrl="Login.aspx" publishTime="01/29/2004 22:54:24" />
+    <file relUrl="2003/09/Default.aspx" publishTime="01/30/2004 17:52:00" />
+    <file relUrl="2004/09/Default.aspx" publishTime="01/30/2004 17:52:10" />
+    <file relUrl="2004/02/Default.aspx" publishTime="01/30/2004 17:52:06" />
+    <file relUrl="2003/01/Default.aspx" publishTime="01/30/2004 17:51:56" />
+    <file relUrl="bin/ActionlessForm.dll" publishTime="05/25/2010 11:35:56" />
+    <file relUrl="2004/01/Default.aspx" publishTime="01/30/2004 17:52:06" />
+    <file relUrl="2003/11/Default.aspx" publishTime="01/30/2004 17:52:02" />
+    <file relUrl="bin/URLRewriter.dll" publishTime="05/25/2010 11:35:56" />
+    <file relUrl="ListProductsByCategory.aspx" publishTime="05/25/2010 10:30:08" />
+    <file relUrl="2004/05/Default.aspx" publishTime="01/30/2004 17:52:08" />
+    <file relUrl="Logout.aspx" publishTime="01/29/2004 22:56:46" />
+    <file relUrl="bin/RewriterTester.pdb" publishTime="05/25/2010 11:35:58" />
+    <file relUrl="ListCategories.aspx" publishTime="05/24/2010 15:14:22" />
+    <file relUrl="2003/10/Default.aspx" publishTime="01/30/2004 17:52:02" />
+    <file relUrl="Products/Default.aspx" publishTime="01/30/2004 02:01:00" />
+    <file relUrl="2003/12/Default.aspx" publishTime="01/30/2004 17:52:02" />
+    <file relUrl="2003/Default.aspx" publishTime="01/30/2004 17:51:58" />
+    <file relUrl="Default.aspx" publishTime="01/30/2004 00:29:48" />
+  </publishTarget>
+</publishData>

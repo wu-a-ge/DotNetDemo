@@ -1,0 +1,5 @@
+D:\projects\UrlRewriter\UrlRewriter\bin\Debug\URLRewriter.dll
+D:\projects\UrlRewriter\UrlRewriter\bin\Debug\URLRewriter.pdb
+D:\projects\UrlRewriter\UrlRewriter\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\UrlRewriter\UrlRewriter\obj\Debug\URLRewriter.dll
+D:\projects\UrlRewriter\UrlRewriter\obj\Debug\URLRewriter.pdb

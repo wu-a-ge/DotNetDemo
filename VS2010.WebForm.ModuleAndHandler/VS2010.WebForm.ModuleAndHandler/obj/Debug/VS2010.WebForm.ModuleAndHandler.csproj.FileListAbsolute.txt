@@ -1,0 +1,13 @@
+E:\快盘\Demo\VS2010.WebForm.ModuleAndHandler\VS2010.WebForm.ModuleAndHandler\bin\VS2010.WebForm.ModuleAndHandler.dll
+E:\快盘\Demo\VS2010.WebForm.ModuleAndHandler\VS2010.WebForm.ModuleAndHandler\bin\VS2010.WebForm.ModuleAndHandler.pdb
+E:\快盘\Demo\VS2010.WebForm.ModuleAndHandler\VS2010.WebForm.ModuleAndHandler\obj\Debug\VS2010.WebForm.ModuleAndHandler.dll
+E:\快盘\Demo\VS2010.WebForm.ModuleAndHandler\VS2010.WebForm.ModuleAndHandler\obj\Debug\VS2010.WebForm.ModuleAndHandler.pdb
+F:\快盘\Demo\VS2010.WebForm.ModuleAndHandler\VS2010.WebForm.ModuleAndHandler\bin\VS2010.WebForm.ModuleAndHandler.dll
+F:\快盘\Demo\VS2010.WebForm.ModuleAndHandler\VS2010.WebForm.ModuleAndHandler\bin\VS2010.WebForm.ModuleAndHandler.pdb
+F:\快盘\Demo\VS2010.WebForm.ModuleAndHandler\VS2010.WebForm.ModuleAndHandler\obj\Debug\ResolveAssemblyReference.cache
+F:\快盘\Demo\VS2010.WebForm.ModuleAndHandler\VS2010.WebForm.ModuleAndHandler\obj\Debug\VS2010.WebForm.ModuleAndHandler.dll
+F:\快盘\Demo\VS2010.WebForm.ModuleAndHandler\VS2010.WebForm.ModuleAndHandler\obj\Debug\VS2010.WebForm.ModuleAndHandler.pdb
+E:\Demo\VS2010.WebForm.ModuleAndHandler\VS2010.WebForm.ModuleAndHandler\bin\VS2010.WebForm.ModuleAndHandler.dll
+E:\Demo\VS2010.WebForm.ModuleAndHandler\VS2010.WebForm.ModuleAndHandler\bin\VS2010.WebForm.ModuleAndHandler.pdb
+E:\Demo\VS2010.WebForm.ModuleAndHandler\VS2010.WebForm.ModuleAndHandler\obj\Debug\VS2010.WebForm.ModuleAndHandler.dll
+E:\Demo\VS2010.WebForm.ModuleAndHandler\VS2010.WebForm.ModuleAndHandler\obj\Debug\VS2010.WebForm.ModuleAndHandler.pdb

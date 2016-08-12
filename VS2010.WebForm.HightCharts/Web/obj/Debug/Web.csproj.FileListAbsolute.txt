@@ -1,0 +1,5 @@
+F:\快盘\Demo\VS2010.WebForm.HightCharts\Web\bin\Web.dll
+F:\快盘\Demo\VS2010.WebForm.HightCharts\Web\bin\Web.pdb
+F:\快盘\Demo\VS2010.WebForm.HightCharts\Web\obj\Debug\ResolveAssemblyReference.cache
+F:\快盘\Demo\VS2010.WebForm.HightCharts\Web\obj\Debug\Web.dll
+F:\快盘\Demo\VS2010.WebForm.HightCharts\Web\obj\Debug\Web.pdb

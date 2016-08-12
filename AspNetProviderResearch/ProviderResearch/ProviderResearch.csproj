@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BADFBFE2-2549-4948-ACC7-39B97FE8693F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProviderResearch</RootNamespace>
+    <AssemblyName>ProviderResearch</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessConnectionHelper.cs" />
+    <Compile Include="AccessMembershipProvider.cs" />
+    <Compile Include="AccessPersonalizationProvider.cs" />
+    <Compile Include="AccessProfileProvider.cs" />
+    <Compile Include="AccessRoleProvider.cs" />
+    <Compile Include="DbMembershipProvider.cs" />
+    <Compile Include="DbRoleProvider.cs" />
+    <Compile Include="PersonalizationProviderHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecUtil.cs" />
+    <Compile Include="SqlProvider\AppPerfCounter.cs" />
+    <Compile Include="SqlProvider\DataConnectionHelper.cs" />
+    <Compile Include="SqlProvider\Membership.cs" />
+    <Compile Include="SqlProvider\MembershipProvider.cs" />
+    <Compile Include="SqlProvider\MembershipUser.cs" />
+    <Compile Include="SqlProvider\MembershipUserCollection.cs" />
+    <Compile Include="SqlProvider\PerfCounters.cs" />
+    <Compile Include="SqlProvider\ProfileProvider.cs" />
+    <Compile Include="SqlProvider\ProviderUtil.cs" />
+    <Compile Include="SqlProvider\RoleProvider.cs" />
+    <Compile Include="SqlProvider\Roles.cs" />
+    <Compile Include="SqlProvider\SecUtility.cs" />
+    <Compile Include="SqlProvider\SqlConnectionHelper.cs" />
+    <Compile Include="SqlProvider\SqlConnectionHolder.cs" />
+    <Compile Include="SqlProvider\SqlMembershipProvider.cs" />
+    <Compile Include="SqlProvider\SqlProfileProvider.cs" />
+    <Compile Include="SqlProvider\SqlRoleProvider.cs" />
+    <Compile Include="SqlProvider\SR.cs" />
+    <Compile Include="SqlProvider\WebBaseEvent.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

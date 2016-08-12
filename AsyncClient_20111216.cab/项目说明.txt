@@ -1,0 +1,29 @@
+
+
+这些示例是为我的博客【C#客户端的异步操作】和【细说ASP.NET的各种异步操作】准备的。
+http://www.cnblogs.com/fish-li/archive/2011/10/23/2222013.html
+http://www.cnblogs.com/fish-li/archive/2011/11/20/2256385.html
+
+
+项目说明
+=================================================
+
+1. WebSite1 是一个用于发布服务的网站。
+   这个示例网站的服务框架来自于我的博客【用Asp.net写自己的服务框架】中所使用的示例代码。
+   网址：http://www.cnblogs.com/fish-li/archive/2011/09/05/2168073.html
+
+
+2. MySimpleServiceClient是一个类库项目，包含了我封装的客户端类。
+
+3. 服务的实现放在ServiceClassLibrary项目中。
+
+4. WindowsFormsApplication1 是调用服务的客户端，这是一个WinForm项目。
+   之所以要选WinForm做为客户端演示，是因为WinForm编程模型中对操作UI方面有更多的线程要求，
+   如果有调用延迟也会特别明显，因此WinForm编程模型对异步的处理更为复杂。
+   为了能让演示更有意义，我宁可选择WinForm程序做为服务的客户端，而不是不负责的选择Console程序。
+   事实上，演示代码也适用于其它编程模型。
+
+5. WebFormClientSite 是一个演示ASP.NET异步页的网站。
+   它演示了各种异步页的实现方式，以及异步HttpModule的实现方式。
+   
+6. MvcApplication1 是一个演示MVC的AsyncController的示例网站。使用ASP.NET MVC 2.0

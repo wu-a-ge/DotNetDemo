@@ -1,0 +1,10 @@
+F:\快盘\Demo\VS2010.WebForm.Test\IMELS\bin\Debug\IMELS.dll
+F:\快盘\Demo\VS2010.WebForm.Test\IMELS\bin\Debug\IMELS.pdb
+F:\快盘\Demo\VS2010.WebForm.Test\IMELS\obj\Debug\ResolveAssemblyReference.cache
+F:\快盘\Demo\VS2010.WebForm.Test\IMELS\obj\Debug\IMELS.dll
+F:\快盘\Demo\VS2010.WebForm.Test\IMELS\obj\Debug\IMELS.pdb
+D:\Demo\trunk\VS2010.WebForm.Test\IMELS\bin\Debug\IMELS.dll
+D:\Demo\trunk\VS2010.WebForm.Test\IMELS\bin\Debug\IMELS.pdb
+D:\Demo\trunk\VS2010.WebForm.Test\IMELS\obj\Debug\IMELS.csprojResolveAssemblyReference.cache
+D:\Demo\trunk\VS2010.WebForm.Test\IMELS\obj\Debug\IMELS.dll
+D:\Demo\trunk\VS2010.WebForm.Test\IMELS\obj\Debug\IMELS.pdb

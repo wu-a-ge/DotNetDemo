@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1", "WebSite1\", "{59AE8C25-241B-454D-AEA2-485C8F267A63}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WebSite1"
+		Debug.AspNetCompiler.PhysicalPath = "WebSite1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite1\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebSite1"
+		Release.AspNetCompiler.PhysicalPath = "WebSite1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite1\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "22132"
+		VWDDynamicPort = "false"
+		VWDVirtualPath = "/"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{9C7278AB-840E-4194-8933-7438C9FBBC4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "说明", "说明", "{F5D91674-F354-44B8-BF71-16499836F0B9}"
+	ProjectSection(SolutionItems) = preProject
+		项目说明.txt = 项目说明.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceClassLibrary", "ServiceClassLibrary\ServiceClassLibrary.csproj", "{5214780A-9355-49F8-8CAD-A5BA932F16CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySimpleServiceClient", "MySimpleServiceClient\MySimpleServiceClient.csproj", "{0086DE55-A8FF-4557-AC95-7AF068DAD4A8}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebFormClientSite", "WebFormClientSite\", "{B6F60D2C-772E-4837-A05E-5D97CEBE3E8F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		ProjectReferences = "{0086DE55-A8FF-4557-AC95-7AF068DAD4A8}|MySimpleServiceClient.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/WebFormClientSite"
+		Debug.AspNetCompiler.PhysicalPath = "WebFormClientSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebFormClientSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebFormClientSite"
+		Release.AspNetCompiler.PhysicalPath = "WebFormClientSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebFormClientSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "22905"
+		VWDDynamicPort = "false"
+		VWDVirtualPath = "/"
+		DefaultWebSiteLanguage = "Visual C#"
+		StartServerOnDebug = "false"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApplication1", "MvcApplication1\MvcApplication1.csproj", "{A227AEF9-6ED3-4388-83B5-610629033C52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59AE8C25-241B-454D-AEA2-485C8F267A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59AE8C25-241B-454D-AEA2-485C8F267A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59AE8C25-241B-454D-AEA2-485C8F267A63}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{59AE8C25-241B-454D-AEA2-485C8F267A63}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9C7278AB-840E-4194-8933-7438C9FBBC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C7278AB-840E-4194-8933-7438C9FBBC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C7278AB-840E-4194-8933-7438C9FBBC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C7278AB-840E-4194-8933-7438C9FBBC4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5214780A-9355-49F8-8CAD-A5BA932F16CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5214780A-9355-49F8-8CAD-A5BA932F16CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5214780A-9355-49F8-8CAD-A5BA932F16CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5214780A-9355-49F8-8CAD-A5BA932F16CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0086DE55-A8FF-4557-AC95-7AF068DAD4A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0086DE55-A8FF-4557-AC95-7AF068DAD4A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0086DE55-A8FF-4557-AC95-7AF068DAD4A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0086DE55-A8FF-4557-AC95-7AF068DAD4A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F60D2C-772E-4837-A05E-5D97CEBE3E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F60D2C-772E-4837-A05E-5D97CEBE3E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F60D2C-772E-4837-A05E-5D97CEBE3E8F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F60D2C-772E-4837-A05E-5D97CEBE3E8F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A227AEF9-6ED3-4388-83B5-610629033C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A227AEF9-6ED3-4388-83B5-610629033C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A227AEF9-6ED3-4388-83B5-610629033C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A227AEF9-6ED3-4388-83B5-610629033C52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

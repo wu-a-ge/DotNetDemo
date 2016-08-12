@@ -1,0 +1,5 @@
+E:\Demo\VS2010.SilverlightApp.Test\VS2010.SilverlightApp.Test.Web\obj\Debug\ResolveAssemblyReference.cache
+E:\Demo\VS2010.SilverlightApp.Test\VS2010.SilverlightApp.Test.Web\bin\VS2010.SilverlightApp.Test.Web.dll
+E:\Demo\VS2010.SilverlightApp.Test\VS2010.SilverlightApp.Test.Web\bin\VS2010.SilverlightApp.Test.Web.pdb
+E:\Demo\VS2010.SilverlightApp.Test\VS2010.SilverlightApp.Test.Web\obj\Debug\VS2010.SilverlightApp.Test.Web.dll
+E:\Demo\VS2010.SilverlightApp.Test\VS2010.SilverlightApp.Test.Web\obj\Debug\VS2010.SilverlightApp.Test.Web.pdb

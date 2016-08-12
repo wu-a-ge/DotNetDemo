@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="getIndexData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dbid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tableName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="all" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="pageSize" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pageIndex" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getIndexDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getIndexDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setIndexDataFlag">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dbid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tableName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="transactionId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setIndexDataFlagResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="setIndexDataFlagResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSearchData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tableName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="returnFields" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ids" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="isDetail" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getSearchDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getSearchDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setDataStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tableName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ids" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setDataStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="setDataStatusResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getIndexDataSoapIn">
+    <wsdl:part name="parameters" element="tns:getIndexData" />
+  </wsdl:message>
+  <wsdl:message name="getIndexDataSoapOut">
+    <wsdl:part name="parameters" element="tns:getIndexDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="setIndexDataFlagSoapIn">
+    <wsdl:part name="parameters" element="tns:setIndexDataFlag" />
+  </wsdl:message>
+  <wsdl:message name="setIndexDataFlagSoapOut">
+    <wsdl:part name="parameters" element="tns:setIndexDataFlagResponse" />
+  </wsdl:message>
+  <wsdl:message name="getSearchDataSoapIn">
+    <wsdl:part name="parameters" element="tns:getSearchData" />
+  </wsdl:message>
+  <wsdl:message name="getSearchDataSoapOut">
+    <wsdl:part name="parameters" element="tns:getSearchDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="setDataStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:setDataStatus" />
+  </wsdl:message>
+  <wsdl:message name="setDataStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:setDataStatusResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SearchableServiceSoap">
+    <wsdl:operation name="getIndexData">
+      <wsdl:input message="tns:getIndexDataSoapIn" />
+      <wsdl:output message="tns:getIndexDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="setIndexDataFlag">
+      <wsdl:input message="tns:setIndexDataFlagSoapIn" />
+      <wsdl:output message="tns:setIndexDataFlagSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getSearchData">
+      <wsdl:input message="tns:getSearchDataSoapIn" />
+      <wsdl:output message="tns:getSearchDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="setDataStatus">
+      <wsdl:input message="tns:setDataStatusSoapIn" />
+      <wsdl:output message="tns:setDataStatusSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SearchableServiceSoap" type="tns:SearchableServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getIndexData">
+      <soap:operation soapAction="http://tempuri.org/getIndexData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setIndexDataFlag">
+      <soap:operation soapAction="http://tempuri.org/setIndexDataFlag" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSearchData">
+      <soap:operation soapAction="http://tempuri.org/getSearchData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setDataStatus">
+      <soap:operation soapAction="http://tempuri.org/setDataStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SearchableServiceSoap12" type="tns:SearchableServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getIndexData">
+      <soap12:operation soapAction="http://tempuri.org/getIndexData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setIndexDataFlag">
+      <soap12:operation soapAction="http://tempuri.org/setIndexDataFlag" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSearchData">
+      <soap12:operation soapAction="http://tempuri.org/getSearchData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setDataStatus">
+      <soap12:operation soapAction="http://tempuri.org/setDataStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SearchableService">
+    <wsdl:port name="SearchableServiceSoap" binding="tns:SearchableServiceSoap">
+      <soap:address location="http://www.irtree.cn:94/SearchableService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SearchableServiceSoap12" binding="tns:SearchableServiceSoap12">
+      <soap12:address location="http://www.irtree.cn:94/SearchableService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

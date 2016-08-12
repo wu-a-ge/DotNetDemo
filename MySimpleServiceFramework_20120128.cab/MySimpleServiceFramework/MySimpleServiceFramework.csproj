@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FDE7B038-3D8B-416D-B1D2-0FE9B848CC82}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MySimpleServiceFramework</RootNamespace>
+    <AssemblyName>MySimpleServiceFramework</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\WebSite1\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DocumentationFile>..\WebSite1\Bin\MySimpleServiceFramework.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\WebSite1\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attribute\AuthorizeAttribute.cs" />
+    <Compile Include="Attribute\MyServiceAttribute.cs" />
+    <Compile Include="Attribute\MyServiceMethodAttribute.cs" />
+    <Compile Include="Handler\AjaxServiceHandler.cs" />
+    <Compile Include="Handler\MyServiceHandlerFactory.cs" />
+    <Compile Include="Helper\FrameworkRules.cs" />
+    <Compile Include="Helper\ReflectionHelper.cs" />
+    <Compile Include="Module\DirectProcessRequestMoudle.cs" />
+    <Compile Include="Module\FishGzipModule.cs" />
+    <Compile Include="Module\DuplexGzipModule.cs" />
+    <Compile Include="Helper\ExceptionHelper.cs" />
+    <Compile Include="Handler\MyServiceHandler.cs" />
+    <Compile Include="Module\MyLogModule.cs" />
+    <Compile Include="Module\MyServiceUrlRewriteModule.cs" />
+    <Compile Include="Module\MyServiceUrlRoutingModule.cs" />
+    <Compile Include="Module\MyServiceUrlRoutingModule2.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Helper\ServiceExecutor.cs" />
+    <Compile Include="Model\ServiceInvokeInfo.cs" />
+    <Compile Include="Helper\UrlPatternHelper.cs" />
+    <Compile Include="Module\XHttpMethodModule.cs" />
+    <Compile Include="Serializer\FormSerializerProvider.cs" />
+    <Compile Include="Serializer\ISerializerProvider.cs" />
+    <Compile Include="Serializer\JsonSerializerProvider.cs" />
+    <Compile Include="Serializer\SerializerProviderFactory.cs" />
+    <Compile Include="Serializer\XmlSerializerProvider.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

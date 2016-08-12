@@ -1,0 +1,11 @@
+F:\快盘\Demo\VS2010.WebForm.MemcachedProviders\VS2010.WebForm.MemcachedProviders\bin\VS2010.WebForm.MemcachedProviders.dll
+F:\快盘\Demo\VS2010.WebForm.MemcachedProviders\VS2010.WebForm.MemcachedProviders\bin\VS2010.WebForm.MemcachedProviders.pdb
+F:\快盘\Demo\VS2010.WebForm.MemcachedProviders\VS2010.WebForm.MemcachedProviders\obj\Debug\ResolveAssemblyReference.cache
+F:\快盘\Demo\VS2010.WebForm.MemcachedProviders\VS2010.WebForm.MemcachedProviders\obj\Debug\VS2010.WebForm.MemcachedProviders.dll
+F:\快盘\Demo\VS2010.WebForm.MemcachedProviders\VS2010.WebForm.MemcachedProviders\obj\Debug\VS2010.WebForm.MemcachedProviders.pdb
+F:\快盘\Demo\VS2010.WebForm.MemcachedProviders\VS2010.WebForm.MemcachedProviders\bin\MemcachedProviders.dll
+E:\Demo\VS2010.WebForm.MemcachedProviders\VS2010.WebForm.MemcachedProviders\bin\VS2010.WebForm.MemcachedProviders.dll
+E:\Demo\VS2010.WebForm.MemcachedProviders\VS2010.WebForm.MemcachedProviders\bin\VS2010.WebForm.MemcachedProviders.pdb
+E:\Demo\VS2010.WebForm.MemcachedProviders\VS2010.WebForm.MemcachedProviders\obj\Debug\VS2010.WebForm.MemcachedProviders.csprojResolveAssemblyReference.cache
+E:\Demo\VS2010.WebForm.MemcachedProviders\VS2010.WebForm.MemcachedProviders\obj\Debug\VS2010.WebForm.MemcachedProviders.dll
+E:\Demo\VS2010.WebForm.MemcachedProviders\VS2010.WebForm.MemcachedProviders\obj\Debug\VS2010.WebForm.MemcachedProviders.pdb

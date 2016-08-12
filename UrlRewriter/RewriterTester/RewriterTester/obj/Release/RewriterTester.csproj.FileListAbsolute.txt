@@ -1,0 +1,15 @@
+D:\projects\RewriterTester\RewriterTester\bin\RewriterTester.dll
+D:\projects\RewriterTester\RewriterTester\bin\RewriterTester.pdb
+D:\projects\RewriterTester\RewriterTester\bin\URLRewriter.pdb
+D:\projects\RewriterTester\RewriterTester\obj\Release\ResolveAssemblyReference.cache
+D:\projects\RewriterTester\RewriterTester\obj\Release\RewriterTester._Default.resources
+D:\projects\RewriterTester\RewriterTester\obj\Release\RewriterTester.Global.resources
+D:\projects\RewriterTester\RewriterTester\obj\Release\RewriterTester.ListCategories.resources
+D:\projects\RewriterTester\RewriterTester\obj\Release\RewriterTester.ListProductsByCategory.resources
+D:\projects\RewriterTester\RewriterTester\obj\Release\RewriterTester.Login.resources
+D:\projects\RewriterTester\RewriterTester\obj\Release\RewriterTester.Logout.resources
+D:\projects\RewriterTester\RewriterTester\obj\Release\RewriterTester.Products._Default.resources
+D:\projects\RewriterTester\RewriterTester\obj\Release\RewriterTester.ShowBlogContent.resources
+D:\projects\RewriterTester\RewriterTester\obj\Release\RewriterTester.csproj.GenerateResource.Cache
+D:\projects\RewriterTester\RewriterTester\obj\Release\RewriterTester.dll
+D:\projects\RewriterTester\RewriterTester\obj\Release\RewriterTester.pdb
