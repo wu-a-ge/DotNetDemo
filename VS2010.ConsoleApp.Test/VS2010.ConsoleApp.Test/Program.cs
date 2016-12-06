@@ -26,7 +26,8 @@ namespace VS2010.ConsoleApp.Test
 
         static void Main(string[] args)
         {
-           
+            new B().test();
+            
             /*
             Dictionary<String,String> typeFields=new Dictionary<string, string>();
             typeFields.Add("1", "lngid,titletype,mediaid,media_c,media_e,years,vol,num,volumn,specialnum,subjectnum,gch,title_c,title_e,keyword_c,keyword_e,remark_c,remark_e,class,beginpage,endpage,jumppage,pagecount,showwriter,showorgan,imburse,author_e,medias_qk,refercount,referids,intpdf,isqwkz,intgby,isinclude,range,fstorgan,fstwriter,muinfo,language,issn,type");
